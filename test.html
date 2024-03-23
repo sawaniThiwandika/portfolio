@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website Example</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Styles for desktop */
+  @media only screen and (min-width: 768px) {
+    header h1 {
+      font-size: 36px;
+    }
+
+    main {
+      padding: 20px;
+    }
+  }
+
+  /* Styles for mobile */
+  @media only screen and (max-width: 767px) {
+    header h1 {
+      font-size: 24px;
+    }
+
+    main {
+      padding: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>My Website</h1>
+</header>
+
+<main>
+  <section>
+    <h2>Welcome to our website</h2>
+    <p>This is a simple example of a responsive website layout.</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 My Website. All rights reserved.</p>
+</footer>
+</body>
+</html>

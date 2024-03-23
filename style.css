@@ -1,0 +1,164 @@
+body{
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 75px;
+    color: white;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top:0;
+
+}
+header>nav{
+
+    position: absolute;
+    right: 14px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+
+}
+header>nav>a{
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+    color: white;
+    font-family: Heebo;
+    margin: 20px;
+}
+header>img{
+
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#homeSection{
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+@media only screen and (max-width: 360px) {
+
+    header{
+
+        background-color: black;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+
+    }
+    header>nav{
+
+
+
+    }
+    header>nav>a{
+
+
+    }
+    header>img{
+        width: 100px;
+
+    }
+    header>i{
+        color: white;
+        right: 0;
+        top:0;
+        bottom: 0;
+        position: absolute;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 834px) {
+    #homeSection{
+
+         top: 100px;
+
+
+
+     }
+    header{
+        background-color: black;
+        color: white;
+        border-bottom: 2px solid  #088194 ;
+
+    }
+    header>nav{
+
+
+    }
+    header>nav>a{
+        text-decoration: none;
+        font-size:20px;
+        color: white;
+        margin: 8px;
+        font-family: Heebo;
+    }
+    header>img{
+        width: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    header>i{
+        display: none;
+
+    }
+}
+
+@media only screen and (min-width: 834px) {
+
+    header{
+        width: 100%;
+        background-color: black;
+        color: white;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        top:0;
+        border-bottom:solid #088194;
+    }
+    header>nav{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+
+        top:0;
+        bottom: 0;
+        margin: auto;
+    }
+    header>nav>a{
+        text-decoration: none;
+        font-size:24px;
+        color: white;
+        margin: 10px;
+        font-family: Heebo;
+    }
+    header>img{
+        width: 125px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    header>i{
+        display: none;
+    }
+    #homeSection{
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        margin: auto;
+    }
+}
