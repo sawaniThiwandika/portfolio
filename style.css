@@ -220,7 +220,7 @@ header>img{
         height: 805px;
         left: 5%;
         margin: auto;
-        top:100px;
+        top:32px;
 
 
     }
@@ -248,7 +248,7 @@ header>img{
     }
     #homeSection>#coverImgDiv>img{
         position: absolute;
-        top:100px;
+        top:66px;
         margin: auto;
         width:420px ;
         height: 804px;
@@ -264,7 +264,7 @@ header>img{
         position: absolute;
         font-size:40px;
         left: 221px;
-        top:188px;
+        top:208px;
         margin: auto;
     }
     #motto1 {
@@ -278,7 +278,7 @@ header>img{
         position: absolute;
         font-size:40px;
         left: 278px;
-        top:282px;
+        top:304px;
         margin: auto;
     }
     #motto1 {
@@ -286,7 +286,7 @@ header>img{
         position: absolute;
         font-size: 50px;
         left: 155px;
-        top:400px;
+        top:438px;
         margin: auto;
     }
     #motto2 {
@@ -294,7 +294,7 @@ header>img{
         position: absolute;
         font-size: 50px;
         left: 0;
-        top:464px;
+        top:500px;
         margin: auto;
     }
 }
