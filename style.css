@@ -183,6 +183,7 @@ header>img{
         margin: auto;
         width: 232px;
         height: 435px;
+        filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
     }
 
     #hellop {
@@ -314,6 +315,7 @@ header>img{
         margin: auto;
         width: 420px;
         height: 804px;
+        filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
     }
 
     #hellop {
@@ -449,6 +451,12 @@ header>img{
             margin: auto;
             width: 420px;
             height: 804px;
+         /*  filter: grayscale(100%);*/
+
+          /* filter: saturate(0%);
+            filter: contrast(100%);
+            filter: brightness(100%);*/
+            filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
         }
 
         #hellop {
