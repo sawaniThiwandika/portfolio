@@ -8,7 +8,7 @@ header{
     position: fixed;
     margin: 0;
     padding: 0;
-    top:0;
+
 
 }
 header>nav{
@@ -38,9 +38,11 @@ header>img{
 }
 #homeSection{
     width: 100%;
+    height:905px;
     position: absolute;
     background-color: black;
     color: white;
+    top:76px;
     margin: 0;
     padding: 0;
 
@@ -78,7 +80,90 @@ header>img{
     }
 }
 @media only screen and (max-width: 834px) {
+    header{
+        width: 100%;
+        background-color: black;
+        color: white;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        top:0;
+        border-bottom:solid #088194;
+    }
+    header>nav{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        margin: auto;
+    }
+    header>nav>a{
+        text-decoration: none;
+        font-size:18px;
+        color: white;
+        margin: 10px;
+        font-family: Heebo;
+    }
+    header>img{
+        width: 80px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    header>i{
+        display: none;
+    }
     #homeSection{
+
+    }
+    #homeSection>#introDiv{
+        position: absolute;
+        width: 60%;
+        left: 5%;
+        margin: auto;
+        top:100px;
+
+
+    }
+    #homeSection>#coverImgDiv{
+        position: absolute;
+        width: 42%;
+        left:54%;
+        margin: auto;
+
+    }
+    #homeSection>#homeContactDiv{
+        position: absolute;
+        width: 5%;
+        right: 4%;
+        margin: auto;
+
+    }
+    #homeSection>div>p{
+
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+    }
+    #homeSection>#coverImgDiv>img{
+        position: absolute;
+        top:100px;
+        margin: auto;
+        width:232px ;
+        height: 435px;
+    }
+    #hellop{
+        font-size:40px;
+    }
+    #namePIntro{
+        font-size:24px;
+    }
+    #motto {
+        font-size: 20px;
+    }
+   /* #homeSection{
 
          top: 100px;
 
@@ -113,6 +198,56 @@ header>img{
         display: none;
 
     }
+    #homeSection{
+
+    }
+    #homeSection>#introDiv{
+        position: absolute;
+        width: 60%;
+        left: 5%;
+        height: 1000px;
+        margin: auto;
+        color:#088194 ;
+
+
+    }
+    #homeSection>#coverImgDiv{
+        position: absolute;
+        width: 30%;
+        height: 1000px;
+        left:20%;
+        margin: auto;
+
+    }
+    #homeSection>#homeContactDiv{
+        position: absolute;
+        height: 1000px;
+        width: 5%;
+        right: 2%;
+        margin: auto;
+
+    }
+    #homeSection>p{
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+
+    }
+    #homeSection>#coverImgDiv>img{
+        width:500px ;
+        height: 804px;
+    }
+    #hellop{
+        font-size:70px;
+    }
+    #namePIntro{
+        font-size:40px;
+    }
+    #motto{
+        color: white;
+        font-size:64px;
+    }
+*/
 }
 
 @media only screen and (min-width: 834px) {
@@ -140,7 +275,7 @@ header>img{
         text-decoration: none;
         font-size:24px;
         color: white;
-        margin: 10px;
+        margin: 20px;
         font-family: Heebo;
     }
     header>img{
@@ -154,11 +289,61 @@ header>img{
         display: none;
     }
     #homeSection{
-        position: absolute;
-        top: 100px;
-        width: 100%;
+        /*position: absolute;
+
         background-color: black;
         color: white;
+        margin: auto;*/
+    }
+    #homeSection>#introDiv{
+        position: absolute;
+        width: 60%;
+        left: 5%;
+        margin: auto;
+        top:100px;
+
+
+    }
+    #homeSection>#coverImgDiv{
+        position: absolute;
+        width: 42%;
+        left:54%;
+        margin: auto;
+
+    }
+    #homeSection>#homeContactDiv{
+        position: absolute;
+        width: 5%;
+        right: 2%;
+        margin: auto;
+
+    }
+    #homeSection>div>p{
+
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+    }
+    #homeSection>#coverImgDiv>img{
+        position: absolute;
+        top:100px;
+        margin: auto;
+        width:420px ;
+        height: 804px;
+    }
+    #hellop{
+        font-size:70px;
+        left: 15px;
+        margin: auto;
+    }
+    #namePIntro{
+        font-size:40px;
+        left: 10px;
+        margin: auto;
+    }
+    #motto {
+        font-size: 50px;
+        left: 0;
         margin: auto;
     }
 }
