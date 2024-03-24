@@ -121,6 +121,7 @@ header>img{
     #homeSection>#introDiv{
         position: absolute;
         width: 60%;
+        height: 805px;
         left: 5%;
         margin: auto;
         top:100px;
@@ -130,12 +131,14 @@ header>img{
     #homeSection>#coverImgDiv{
         position: absolute;
         width: 42%;
+        height: 805px;
         left:54%;
         margin: auto;
 
     }
     #homeSection>#homeContactDiv{
         position: absolute;
+        height: 805px;
         width: 5%;
         right: 4%;
         margin: auto;
@@ -163,91 +166,7 @@ header>img{
     #motto {
         font-size: 20px;
     }
-   /* #homeSection{
 
-         top: 100px;
-
-
-
-     }
-    header{
-        background-color: black;
-        color: white;
-        border-bottom: 2px solid  #088194 ;
-
-    }
-    header>nav{
-
-
-    }
-    header>nav>a{
-        text-decoration: none;
-        font-size:20px;
-        color: white;
-        margin: 8px;
-        font-family: Heebo;
-    }
-    header>img{
-        width: 100px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-    }
-    header>i{
-        display: none;
-
-    }
-    #homeSection{
-
-    }
-    #homeSection>#introDiv{
-        position: absolute;
-        width: 60%;
-        left: 5%;
-        height: 1000px;
-        margin: auto;
-        color:#088194 ;
-
-
-    }
-    #homeSection>#coverImgDiv{
-        position: absolute;
-        width: 30%;
-        height: 1000px;
-        left:20%;
-        margin: auto;
-
-    }
-    #homeSection>#homeContactDiv{
-        position: absolute;
-        height: 1000px;
-        width: 5%;
-        right: 2%;
-        margin: auto;
-
-    }
-    #homeSection>p{
-        width: fit-content;
-        height: fit-content;
-        color: #0DB3AE;
-
-    }
-    #homeSection>#coverImgDiv>img{
-        width:500px ;
-        height: 804px;
-    }
-    #hellop{
-        font-size:70px;
-    }
-    #namePIntro{
-        font-size:40px;
-    }
-    #motto{
-        color: white;
-        font-size:64px;
-    }
-*/
 }
 
 @media only screen and (min-width: 834px) {
@@ -298,6 +217,7 @@ header>img{
     #homeSection>#introDiv{
         position: absolute;
         width: 60%;
+        height: 805px;
         left: 5%;
         margin: auto;
         top:100px;
@@ -307,6 +227,7 @@ header>img{
     #homeSection>#coverImgDiv{
         position: absolute;
         width: 42%;
+        height: 805px;
         left:54%;
         margin: auto;
 
@@ -314,6 +235,7 @@ header>img{
     #homeSection>#homeContactDiv{
         position: absolute;
         width: 5%;
+        height: 805px;
         right: 2%;
         margin: auto;
 
@@ -332,18 +254,47 @@ header>img{
         height: 804px;
     }
     #hellop{
-        font-size:70px;
-        left: 15px;
+        position: absolute;
+        font-size:82px;
+        left: 315px;
+        top:80px;
         margin: auto;
     }
     #namePIntro{
+        position: absolute;
         font-size:40px;
-        left: 10px;
+        left: 221px;
+        top:188px;
         margin: auto;
     }
-    #motto {
+    #motto1 {
+        position: absolute;
         font-size: 50px;
         left: 0;
+        top:250px;
+        margin: auto;
+    }
+    #fromSL{
+        position: absolute;
+        font-size:40px;
+        left: 278px;
+        top:282px;
+        margin: auto;
+    }
+    #motto1 {
+
+        position: absolute;
+        font-size: 50px;
+        left: 155px;
+        top:400px;
+        margin: auto;
+    }
+    #motto2 {
+
+        position: absolute;
+        font-size: 50px;
+        left: 0;
+        top:464px;
         margin: auto;
     }
 }
