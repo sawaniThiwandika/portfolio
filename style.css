@@ -1,32 +1,44 @@
 body{
-    position: relative;
+position: relative;
 }
 header{
-    width: 100%;
-    height: 75px;
-    color: white;
     position: fixed;
-    margin: 0;
-    padding: 0;
-
-
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    border-bottom:solid #088194;
+    z-index: 9999;
 }
-header>nav{
 
+nav {
     position: absolute;
-    right: 14px;
-    top:0;
+    display: inline-block;
+
     bottom: 0;
+    right: 10px;
     margin: auto;
 
 }
-header>nav>a{
-    width: fit-content;
-    height: fit-content;
-    text-decoration: none;
+
+nav > ul {
+
+    list-style-type: none;
+
+
+}
+
+header>nav > ul > li {
+    display: inline;
+
+
+}
+header>nav>ul>a{
+
     color: white;
+    text-decoration: none;
+    font-size: 30px;
     font-family: Heebo;
-    margin: 20px;
+    margin: 10px;
 }
 header>img{
 
@@ -39,13 +51,23 @@ header>img{
 #homeSection{
     width: 100%;
     height:905px;
-    position: absolute;
+    position: relative;
     background-color: black;
     color: white;
-    top:76px;
+    top:67px;
     margin: 0;
     padding: 0;
 
+}
+#aboutSection{
+    width: 100%;
+    height:981px;
+    position: relative;
+    background-color: white;
+    color: white;
+    top:905px;
+    margin: 0;
+    padding: 0;
 }
 @media only screen and (max-width: 360px) {
 
@@ -80,118 +102,152 @@ header>img{
     }
 }
 @media only screen and (max-width: 834px) {
-    header{
-        width: 100%;
-        background-color: black;
-        color: white;
-        position: fixed;
-        margin: 0;
-        padding: 0;
-        top:0;
-        border-bottom:solid #088194;
+    header {
+
     }
-    header>nav{
-        width: fit-content;
-        height: fit-content;
-        position: absolute;
-        top:0;
-        bottom: 0;
-        margin: auto;
+
+    header > nav {
+
     }
-    header>nav>a{
+
+    header > nav > ul > a {
         text-decoration: none;
-        font-size:18px;
+        font-size: 18px;
         color: white;
         margin: 10px;
         font-family: Heebo;
     }
-    header>img{
+
+    header > img {
         width: 80px;
         position: absolute;
         top: 0;
         bottom: 0;
         margin: auto;
     }
-    header>i{
+
+    header > i {
         display: none;
     }
-    #homeSection{
 
+    #homeSection {
+     height: 540px;
     }
-    #homeSection>#introDiv{
+
+    #homeSection > #introDiv {
         position: absolute;
         width: 60%;
         height: 805px;
         left: 5%;
         margin: auto;
-        top:100px;
+        top: 100px;
 
 
     }
-    #homeSection>#coverImgDiv{
+
+    #homeSection > #coverImgDiv {
         position: absolute;
         width: 42%;
         height: 805px;
-        left:54%;
+        left: 54%;
         margin: auto;
 
     }
-    #homeSection>#homeContactDiv{
-        position: absolute;
+
+    #homeSection > #homeContactDiv {
+       /* position: absolute;
         height: 805px;
         width: 5%;
         right: 4%;
         margin: auto;
+*/
+        position: absolute;
+        width: 5%;
+        height: 805px;
+        right: 7%;
+        top: 90px;
+        margin: auto;
 
     }
-    #homeSection>div>p{
+
+    #homeSection > div > p {
 
         width: fit-content;
         height: fit-content;
         color: #0DB3AE;
     }
-    #homeSection>#coverImgDiv>img{
+
+    #homeSection > #coverImgDiv > img {
         position: absolute;
-        top:100px;
+        top: 100px;
         margin: auto;
-        width:232px ;
+        width: 232px;
         height: 435px;
     }
-    #hellop{
-        font-size:40px;
+
+    #hellop {
+        position: absolute;
+        font-size: 40px;
+        /*left: 315px;*/
+        left: 30%;
+        top: 50px;
+        margin: auto;
     }
-    #namePIntro{
-        font-size:24px;
-    }
-    #motto {
-        font-size: 20px;
+    #namePIntro {
+        position: absolute;
+        font-size: 27px;
+        /*  left: 221px;*/
+        left: 10%;
+        top: 100px;
+        margin: auto;
     }
 
+
+
+    #fromSL {
+        position: absolute;
+        font-size: 27px;
+        /*left: 278px;*/
+        left: 20%;
+        top: 160px;
+        margin: auto;
+    }
+
+    #motto1 {
+
+        position: absolute;
+        font-size: 24px;
+        /* left: 155px;*/
+        left: 20%;
+        top: 250px;
+        margin: auto;
+    }
+
+    #motto2 {
+
+        position: absolute;
+        font-size: 24px;
+        left: 0;
+        top: 280px;
+        margin: auto;
+
+
+    }
+    #homeSection > #homeContactDiv > a > img {
+        margin: 7px;
+    }
 }
 @media only screen and (min-width: 834px) {
 
     header {
-        width: 100%;
-        background-color: black;
-        color: white;
-        position: fixed;
-        margin: 0;
-        padding: 0;
-        top: 0;
-        border-bottom: solid #088194;
+
     }
 
     header > nav {
-        width: fit-content;
-        height: fit-content;
-        position: absolute;
 
-        top: 0;
-        bottom: 0;
-        margin: auto;
     }
 
-    header > nav > a {
+    header > nav > ul> a {
         text-decoration: none;
         font-size: 20px;
         color: white;
@@ -212,11 +268,7 @@ header>img{
     }
 
     #homeSection {
-        /*position: absolute;
-
-        background-color: black;
-        color: white;
-        margin: auto;*/
+      height: 873px;
     }
 
     #homeSection > #introDiv {
@@ -277,7 +329,7 @@ header>img{
         position: absolute;
         font-size: 35px;
         /*  left: 221px;*/
-        left: 25%;
+        left: 20%;
         top: 208px;
         margin: auto;
     }
@@ -326,36 +378,20 @@ header>img{
     @media only screen and (min-width: 1300px) {
 
         header {
-            width: 100%;
-            background-color: black;
-            color: white;
-            position: fixed;
-            margin: 0;
-            padding: 0;
-            top: 0;
-            border-bottom: solid #088194;
+
         }
 
         header > nav {
-            width: fit-content;
-            height: fit-content;
-            position: absolute;
 
-            top: 0;
-            bottom: 0;
-            margin: auto;
         }
 
-        header > nav > a {
-            text-decoration: none;
+        header > nav >ul> a {
             font-size: 24px;
-            color: white;
-            margin: 10px;
-            font-family: Heebo;
+
         }
 
         header > img {
-            width: 125px;
+            width: 100px;
             position: absolute;
             top: 0;
             bottom: 0;
@@ -367,11 +403,7 @@ header>img{
         }
 
         #homeSection {
-            /*position: absolute;
 
-            background-color: black;
-            color: white;
-            margin: auto;*/
         }
 
         #homeSection > #introDiv {
