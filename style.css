@@ -194,7 +194,7 @@ header>img{
         text-decoration: none;
         font-size:24px;
         color: white;
-        margin: 20px;
+        margin: 10px;
         font-family: Heebo;
     }
     header>img{
@@ -236,7 +236,8 @@ header>img{
         position: absolute;
         width: 5%;
         height: 805px;
-        right: 2%;
+        right: 5%;
+        top: 150px;
         margin: auto;
 
     }
@@ -256,14 +257,16 @@ header>img{
     #hellop{
         position: absolute;
         font-size:82px;
-        left: 315px;
+        /*left: 315px;*/
+        left: 36%;
         top:80px;
         margin: auto;
     }
     #namePIntro{
         position: absolute;
         font-size:40px;
-        left: 221px;
+      /*  left: 221px;*/
+        left: 25%;
         top:208px;
         margin: auto;
     }
@@ -277,7 +280,8 @@ header>img{
     #fromSL{
         position: absolute;
         font-size:40px;
-        left: 278px;
+        /*left: 278px;*/
+        left: 30%;
         top:304px;
         margin: auto;
     }
@@ -285,7 +289,8 @@ header>img{
 
         position: absolute;
         font-size: 50px;
-        left: 155px;
+       /* left: 155px;*/
+        left: 23%;
         top:438px;
         margin: auto;
     }
@@ -297,4 +302,8 @@ header>img{
         top:500px;
         margin: auto;
     }
+    #homeSection>#homeContactDiv>a>img{
+        margin: 10px;
+    }
+
 }
