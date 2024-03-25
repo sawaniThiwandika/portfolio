@@ -64,11 +64,12 @@ header>img{
     height:981px;
     position: relative;
     background-color: white;
-    color: white;
-    top:905px;
+    color: black;
+   /* top:905px;
     margin: 0;
-    padding: 0;
+    padding: 0;*/
 }
+
 @media only screen and (max-width: 360px) {
 
     header{
@@ -515,6 +516,82 @@ header>img{
 
         #homeSection > #homeContactDiv > a > img {
             margin: 10px;
+        }
+        #aboutSection>#aboutCoverImgDiv{
+            position: absolute;
+            top:12%;
+            left:5%;
+            margin: auto;
+            width: 35%;
+            aspect-ratio: 1/1.3;
+            border: solid #088395;
+            border-radius: 20px;
+
+
+        }
+        #aboutSection>#aboutDescriptionDiv{
+            position: absolute;
+            top:12%;
+            left: 44%;
+            margin: auto ;
+            width: 55%;
+            aspect-ratio: 1/0.735;
+        }
+        #aboutDescriptionDiv>#aboutMeHeading{
+            font-size: 120px;
+            position: absolute;
+            color: #35A29F;
+            left: 10%;
+            top:0;
+            opacity: 0.2;
+            margin: auto;
+            font-family: Jura;
+
+        }
+        #whoAmI{
+            font-size: 50px;
+            position: absolute;
+            left: 35%;
+            top:45px;
+            margin: auto;
+            font-family: Heebo;
+        }
+        #descriptionMe{
+            font-size: 32px;
+            position: absolute;
+            left: 10%;
+            right: 10%;
+            top:170px;
+            margin: auto;
+            font-family: Heebo;
+        }
+        #aboutCoverImgDiv>img{
+            position: absolute;
+            top:0;
+            left:0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            width: 400px;
+            height: 561px;
+
+        }
+        #downloadCV{
+
+            color: #35A29F;
+            font-size: 20px;
+            position: absolute;
+            height: 90px;
+            width: 260px;
+            left:0;
+            bottom: 60px;
+            right: 0;
+            margin: auto;
+            background-color: white;
+            border: solid #35A29F;
+            text-align: center;
+            border-radius: 10px;
+
         }
 
     }
