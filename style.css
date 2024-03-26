@@ -1,13 +1,16 @@
 body{
 position: relative;
+
 }
 header{
     position: fixed;
     background-color: black;
     width: 100%;
-    height: 10%;
+    height: 75px;
     border-bottom:solid #088194;
     z-index: 9999;
+    top:0;
+    margin: auto;
 }
 
 nav {
@@ -73,7 +76,8 @@ header>img{
 @media only screen and (max-width: 360px) {
 
     header{
-
+        top:0;
+        margin: auto;
         background-color: black;
         width: 100%;
         height: 100px;
@@ -81,8 +85,6 @@ header>img{
 
     }
     header>nav{
-
-
 
     }
     header>nav>a{
@@ -104,7 +106,8 @@ header>img{
 }
 @media only screen and (max-width: 834px) {
     header {
-
+        top:0;
+        margin: auto;
     }
 
     header > nav {
@@ -132,6 +135,7 @@ header>img{
     }
 
     #homeSection {
+
      height: 540px;
     }
 
@@ -238,11 +242,101 @@ header>img{
     #homeSection > #homeContactDiv > a > img {
         margin: 7px;
     }
+    #aboutSection{
+        height: 1000px;
+
+    }
+
+    #aboutSection>#aboutCoverImgDiv{
+        position: absolute;
+        top:20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 10px;
+
+
+    }
+    #aboutSection>#aboutDescriptionDiv{
+        position: absolute;
+        top:5%;
+        left: 0;
+        right: 0;
+        margin: auto ;
+        width: 80%;
+        height: 850px;
+    }
+    #aboutDescriptionDiv>#aboutMeHeading{
+
+        font-size: 90px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top:0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+
+    }
+    #whoAmI{
+        font-size: 30px;
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:50px;
+        margin: auto;
+        font-family: Heebo;
+    }
+    #descriptionMe{
+        font-size: 20px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top:600px;
+        margin: auto;
+        font-family: Heebo;
+    }
+    #aboutCoverImgDiv>img{
+        position: absolute;
+        top:0;
+        left:0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+    #downloadCV{
+
+        color: #35A29F;
+        font-size: 15px;
+        position: absolute;
+        height: 8%;
+        width: 35%;
+        left:0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: solid #35A29F;
+        text-align: center;
+        border-radius: 5px;
+
+    }
 }
 @media only screen and (min-width: 834px) {
 
     header {
-
+        top:0;
+        margin: auto;
     }
 
     header > nav {
@@ -337,13 +431,15 @@ header>img{
         margin: auto;
     }
 
-    #motto1 {
+  /*  #motto1 {
         position: absolute;
         font-size: 35px;
         left: 5px;
         top: 250px;
+        opacity: 0.2;
         margin: auto;
-    }
+
+    }*/
 
     #fromSL {
         position: absolute;
@@ -357,10 +453,12 @@ header>img{
     #motto1 {
 
         position: absolute;
+        font-family: 'Dosis', sans-serif;
         font-size: 33px;
         /* left: 155px;*/
         left: 20%;
         top: 438px;
+        opacity: 0.2;
         margin: auto;
     }
 
@@ -368,7 +466,9 @@ header>img{
 
         position: absolute;
         font-size: 33px;
+        font-family: 'Dosis', sans-serif;
         left: 0;
+        opacity: 0.2;
         top: 500px;
         margin: auto;
     }
@@ -376,12 +476,94 @@ header>img{
     #homeSection > #homeContactDiv > a > img {
         margin: 7px;
     }
+    #aboutSection>#aboutCoverImgDiv{
+        position: absolute;
+        top:12%;
+        left:5%;
+        margin: auto;
+        width: 30%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 20px;
+
+
+    }
+    #aboutSection>#aboutDescriptionDiv{
+        position: absolute;
+        top:12%;
+        left: 40%;
+        margin: auto ;
+        width: 65%;
+       /* aspect-ratio: 1/0.735;*/
+        height: 500px;
+    }
+    #aboutDescriptionDiv>#aboutMeHeading{
+
+        font-size: 100px;
+        position: absolute;
+        color: #35A29F;
+
+        left: 10%;
+        top:0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+
+    }
+    #whoAmI{
+        font-size: 40px;
+        position: absolute;
+        left: 35%;
+        top:45px;
+        margin: auto;
+        font-family: Heebo;
+    }
+    #descriptionMe{
+        font-size: 25px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top:170px;
+        margin: auto;
+        font-family: Heebo;
+    }
+    #aboutCoverImgDiv>img{
+        position: absolute;
+        top:0;
+        left:0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+    #downloadCV{
+
+        color: #35A29F;
+        font-size: 15px;
+        position: absolute;
+        height: 13%;
+        width: 30%;
+        left:0;
+        bottom: 20px;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: solid #35A29F;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+
 }
 
     @media only screen and (min-width: 1300px) {
 
         header {
-
+            top:0;
+            margin: auto;
         }
 
         header > nav {
@@ -478,13 +660,14 @@ header>img{
             margin: auto;
         }
 
-        #motto1 {
+    /*    #motto1 {
             position: absolute;
             font-size: 50px;
             left: 0;
             top: 250px;
             margin: auto;
-        }
+            font-family: 'Dosis', sans-serif;
+        }*/
 
         #fromSL {
             position: absolute;
@@ -502,6 +685,7 @@ header>img{
             /* left: 155px;*/
             left: 23%;
             top: 438px;
+            font-family: 'Dosis', sans-serif;
             margin: auto;
         }
 
@@ -511,6 +695,8 @@ header>img{
             font-size: 50px;
             left: 0;
             top: 500px;
+            font-family: 'Dosis', sans-serif;
+            font-weight: 20;
             margin: auto;
         }
 
@@ -522,7 +708,7 @@ header>img{
             top:12%;
             left:5%;
             margin: auto;
-            width: 35%;
+            width: 30%;
             aspect-ratio: 1/1.3;
             border: solid #088395;
             border-radius: 20px;
@@ -535,17 +721,21 @@ header>img{
             left: 44%;
             margin: auto ;
             width: 55%;
-            aspect-ratio: 1/0.735;
+            /*aspect-ratio: 1/0.735;*/
+            height: 600px;
         }
         #aboutDescriptionDiv>#aboutMeHeading{
+
             font-size: 120px;
             position: absolute;
             color: #35A29F;
+
             left: 10%;
             top:0;
             opacity: 0.2;
             margin: auto;
             font-family: Jura;
+            font-weight: 10;
 
         }
         #whoAmI{
@@ -572,8 +762,8 @@ header>img{
             bottom: 0;
             right: 0;
             margin: auto;
-            width: 400px;
-            height: 561px;
+            width: 70%;
+            height: 75%;
 
         }
         #downloadCV{
@@ -581,10 +771,10 @@ header>img{
             color: #35A29F;
             font-size: 20px;
             position: absolute;
-            height: 90px;
-            width: 260px;
+            height: 13%;
+            width: 30%;
             left:0;
-            bottom: 60px;
+            bottom: 30px;
             right: 0;
             margin: auto;
             background-color: white;
