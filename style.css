@@ -1,4 +1,4 @@
-body{
+/*body{
 position: relative;
 
 }
@@ -68,50 +68,79 @@ header>img{
     position: relative;
     background-color: white;
     color: black;
-   /* top:905px;
+    top:905px;
     margin: 0;
-    padding: 0;*/
-}
+    padding: 0;
+}*/
+@media only screen and (max-width: 320px) {
+    body{
+        position: relative;
 
-@media only screen and (max-width: 360px) {
+    }
 
-    header{
-        top:0;
+
+
+
+    nav > ul {
+
+        list-style-type: none;
+
+
+    }
+
+    header>nav > ul > li {
+        display: inline;
+
+
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height:981px;
+        position: relative;
+        background-color: white;
+        color: black;
+        top:0px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+    header {
+        top: 0;
         margin: auto;
+        height: 64px;
+        position: fixed;
         background-color: black;
         width: 100%;
-        height: 100px;
-        position: fixed;
 
-    }
-    header>nav{
-
-    }
-    header>nav>a{
-
-
-    }
-    header>img{
-        width: 100px;
-
-    }
-    header>i{
-        color: white;
-        right: 0;
-        top:0;
-        bottom: 0;
-        position: absolute;
-        margin: auto;
-    }
-}
-@media only screen and (max-width: 834px) {
-    header {
-        top:0;
-        margin: auto;
+        border-bottom:solid #088194;
+        z-index: 9999;
     }
 
     header > nav {
+        position: absolute;
+        top: -100px;
 
+        display: inline-block;
+
+        bottom: 0;
+        right: 10px;
+        margin: auto;
+
+    }
+
+    #hamBtn {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 10px;
+        width: fit-content;
     }
 
     header > nav > ul > a {
@@ -120,6 +149,9 @@ header>img{
         color: white;
         margin: 10px;
         font-family: Heebo;
+
+
+
     }
 
     header > img {
@@ -128,6 +160,9 @@ header>img{
         top: 0;
         bottom: 0;
         margin: auto;
+
+        left: 10px;
+
     }
 
     header > i {
@@ -136,7 +171,15 @@ header>img{
 
     #homeSection {
 
-     height: 540px;
+        height: 540px;
+        width: 100%;
+
+        position: relative;
+        background-color: black;
+        color: white;
+        top:50px;
+        margin: 0;
+        padding: 0;
     }
 
     #homeSection > #introDiv {
@@ -145,7 +188,7 @@ header>img{
         height: 805px;
         left: 5%;
         margin: auto;
-        top: 100px;
+        top: 50px;
 
 
     }
@@ -160,12 +203,12 @@ header>img{
     }
 
     #homeSection > #homeContactDiv {
-       /* position: absolute;
-        height: 805px;
-        width: 5%;
-        right: 4%;
-        margin: auto;
-*/
+        /* position: absolute;
+         height: 805px;
+         width: 5%;
+         right: 4%;
+         margin: auto;
+ */
         position: absolute;
         width: 5%;
         height: 805px;
@@ -224,6 +267,1508 @@ header>img{
         position: absolute;
         font-size: 24px;
         /* left: 155px;*/
+        left: 20%;
+        top: 242px;
+        margin: auto;
+    }
+
+    #motto2 {
+
+        position: absolute;
+        font-size: 24px;
+        left: 0;
+        top: 278px;
+        margin: auto;
+
+
+    }
+
+    #homeSection > #homeContactDiv > a > img {
+        margin: 7px;
+    }
+
+    #aboutSection {
+        height: 1000px;
+
+    }
+
+    #aboutSection > #aboutCoverImgDiv {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 10px;
+
+
+    }
+
+    #aboutSection > #aboutDescriptionDiv {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 80%;
+        height: 850px;
+    }
+
+    #aboutDescriptionDiv > #aboutMeHeading {
+
+        font-size: 90px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+
+    }
+
+    #whoAmI {
+        font-size: 30px;
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #descriptionMe {
+        font-size: 20px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 600px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #aboutCoverImgDiv > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+
+    #downloadCV {
+
+        color: #35A29F;
+        font-size: 15px;
+        position: absolute;
+        height: 8%;
+        width: 35%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: solid #35A29F;
+        text-align: center;
+        border-radius: 5px;
+
+    }
+
+}
+
+/*
+@media only screen and (min-width: 320px) {
+    body{
+        position: relative;
+
+    }
+
+
+
+
+    nav > ul {
+
+        list-style-type: none;
+
+
+    }
+
+    header>nav > ul > li {
+        display: inline;
+
+
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height:981px;
+        position: relative;
+        background-color: white;
+        color: black;
+        top:0px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+    header {
+        top: 0;
+        margin: auto;
+        height: 64px;
+        position: fixed;
+        background-color: black;
+        width: 100%;
+
+        border-bottom:solid #088194;
+        z-index: 9999;
+    }
+
+    header > nav {
+        position: absolute;
+        top: -100px;
+
+        display: inline-block;
+
+        bottom: 0;
+        right: 10px;
+        margin: auto;
+
+    }
+
+    #hamBtn {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 10px;
+        width: fit-content;
+    }
+
+    header > nav > ul > a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        margin: 10px;
+        font-family: Heebo;
+
+
+
+    }
+
+    header > img {
+        width: 80px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        left: 10px;
+
+    }
+
+    header > i {
+        display: none;
+    }
+
+    #homeSection {
+
+        height: 540px;
+        width: 100%;
+
+        position: relative;
+        background-color: black;
+        color: white;
+        top:50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #homeSection > #introDiv {
+        position: absolute;
+        width: 60%;
+        height: 805px;
+        left: 5%;
+        margin: auto;
+        top: 50px;
+
+
+    }
+
+    #homeSection > #coverImgDiv {
+        position: absolute;
+        width: 42%;
+        height: 805px;
+        left: 54%;
+        margin: auto;
+
+    }
+
+    #homeSection > #homeContactDiv {
+        !* position: absolute;
+         height: 805px;
+         width: 5%;
+         right: 4%;
+         margin: auto;
+ *!
+        position: absolute;
+        width: 5%;
+        height: 805px;
+        right: 7%;
+        top: 90px;
+        margin: auto;
+
+    }
+
+    #homeSection > div > p {
+
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+    }
+
+    #homeSection > #coverImgDiv > img {
+        position: absolute;
+        top: 100px;
+        margin: auto;
+        width: 232px;
+        height: 435px;
+        filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
+    }
+
+    #hellop {
+        position: absolute;
+        font-size: 40px;
+        !*left: 315px;*!
+        left: 30%;
+        top: 50px;
+        margin: auto;
+    }
+    #namePIntro {
+        position: absolute;
+        font-size: 27px;
+        !*  left: 221px;*!
+        left: 10%;
+        top: 100px;
+        margin: auto;
+    }
+
+
+
+    #fromSL {
+        position: absolute;
+        font-size: 27px;
+        !*left: 278px;*!
+        left: 20%;
+        top: 160px;
+        margin: auto;
+    }
+
+    #motto1 {
+
+        position: absolute;
+        font-size: 24px;
+        !* left: 155px;*!
+        left: 20%;
+        top: 242px;
+        margin: auto;
+    }
+
+    #motto2 {
+
+        position: absolute;
+        font-size: 24px;
+        left: 0;
+        top: 278px;
+        margin: auto;
+
+
+    }
+
+    #homeSection > #homeContactDiv > a > img {
+        margin: 7px;
+    }
+
+    #aboutSection {
+        height: 1000px;
+
+    }
+
+    #aboutSection > #aboutCoverImgDiv {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 10px;
+
+
+    }
+
+    #aboutSection > #aboutDescriptionDiv {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 80%;
+        height: 850px;
+    }
+
+    #aboutDescriptionDiv > #aboutMeHeading {
+
+        font-size: 90px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+
+    }
+
+    #whoAmI {
+        font-size: 30px;
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #descriptionMe {
+        font-size: 20px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 600px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #aboutCoverImgDiv > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+
+    #downloadCV {
+
+        color: #35A29F;
+        font-size: 15px;
+        position: absolute;
+        height: 8%;
+        width: 35%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: solid #35A29F;
+        text-align: center;
+        border-radius: 5px;
+
+    }
+
+}
+*/
+
+@media only screen and (max-width: 375px) {
+    body{
+        position: relative;
+
+    }
+
+
+
+
+    nav > ul {
+
+        list-style-type: none;
+
+
+    }
+
+    header>nav > ul > li {
+        display: inline;
+
+
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height:981px;
+        position: relative;
+        background-color: white;
+        color: black;
+        top:0px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+    header {
+        top: 0;
+        margin: auto;
+        height: 64px;
+        position: fixed;
+        background-color: black;
+        width: 100%;
+
+        border-bottom:solid #088194;
+        z-index: 9999;
+    }
+
+    header > nav {
+        position: absolute;
+        top: -100px;
+
+        display: inline-block;
+
+        bottom: 0;
+        right: 10px;
+        margin: auto;
+
+    }
+
+    #hamBtn {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 10px;
+        width: fit-content;
+    }
+
+    header > nav > ul > a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        margin: 10px;
+        font-family: Heebo;
+
+
+
+    }
+
+    header > img {
+        width: 80px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        left: 10px;
+
+    }
+
+    header > i {
+        display: none;
+    }
+
+    #homeSection {
+
+        height: 540px;
+        width: 100%;
+
+        position: relative;
+        background-color: black;
+        color: white;
+        top:50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #homeSection > #introDiv {
+        position: absolute;
+        width: 60%;
+        height: 805px;
+        left: 5%;
+        margin: auto;
+        top: 50px;
+
+
+    }
+
+    #homeSection > #coverImgDiv {
+        position: absolute;
+        width: 42%;
+        height: 805px;
+        left: 54%;
+        margin: auto;
+
+    }
+
+    #homeSection > #homeContactDiv {
+        /* position: absolute;
+         height: 805px;
+         width: 5%;
+         right: 4%;
+         margin: auto;
+ */
+        position: absolute;
+        width: 5%;
+        height: 805px;
+        right: 7%;
+        top: 90px;
+        margin: auto;
+
+    }
+
+    #homeSection > div > p {
+
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+    }
+
+    #homeSection > #coverImgDiv > img {
+        position: absolute;
+        top: 100px;
+        margin: auto;
+        width: 232px;
+        height: 435px;
+        filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
+    }
+
+    #hellop {
+        position: absolute;
+        font-size: 40px;
+        /*left: 315px;*/
+        left: 30%;
+        top: 50px;
+        margin: auto;
+    }
+    #namePIntro {
+        position: absolute;
+        font-size: 27px;
+        /*  left: 221px;*/
+        left: 10%;
+        top: 100px;
+        margin: auto;
+    }
+
+
+
+    #fromSL {
+        position: absolute;
+        font-size: 27px;
+        /*left: 278px;*/
+        left: 20%;
+        top: 160px;
+        margin: auto;
+    }
+
+    #motto1 {
+
+        position: absolute;
+        font-size: 24px;
+        /* left: 155px;*/
+        left: 20%;
+        top: 242px;
+        margin: auto;
+    }
+
+    #motto2 {
+
+        position: absolute;
+        font-size: 24px;
+        left: 0;
+        top: 278px;
+        margin: auto;
+
+
+    }
+
+    #homeSection > #homeContactDiv > a > img {
+        margin: 7px;
+    }
+
+    #aboutSection {
+        height: 1000px;
+
+    }
+
+    #aboutSection > #aboutCoverImgDiv {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 10px;
+
+
+    }
+
+    #aboutSection > #aboutDescriptionDiv {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 80%;
+        height: 850px;
+    }
+
+    #aboutDescriptionDiv > #aboutMeHeading {
+
+        font-size: 90px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+
+    }
+
+    #whoAmI {
+        font-size: 30px;
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #descriptionMe {
+        font-size: 20px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 600px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #aboutCoverImgDiv > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+
+    #downloadCV {
+
+        color: #35A29F;
+        font-size: 15px;
+        position: absolute;
+        height: 8%;
+        width: 35%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: solid #35A29F;
+        text-align: center;
+        border-radius: 5px;
+
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    body{
+        position: relative;
+
+    }
+
+
+    #aboutSection{
+        width: 100%;
+        height:981px;
+        position: absolute;
+        background-color: white;
+        color: black;
+        top: 700px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+    header {
+        top: 0;
+        margin: auto;
+        height: 50px;
+        position: fixed;
+        background: linear-gradient(to bottom, #35A29F 0%, #35A29F 30%, #088194 80%, #088194 100%);
+        width: 100vw ;
+
+       border-bottom: none ;
+        z-index: 9999;
+    }
+
+    header > nav {
+        position: absolute;
+        top: -100px;
+
+        display: inline-block;
+
+        bottom: 0;
+        right: 10px;
+        margin: auto;
+
+    }
+    nav > ul {
+
+        list-style-type: none;
+
+
+    }
+
+    header>nav > ul > li {
+        display: inline;
+
+
+    }
+
+    #hamBtn {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 10px;
+        width: fit-content;
+    }
+
+    header > nav > ul > a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        margin: 10px;
+        font-family: Heebo;
+
+
+
+    }
+
+    header > img {
+        width: 80px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        left: 10px;
+
+    }
+
+    header > i {
+        display: none;
+    }
+
+    #homeSection {
+
+        height: 600px;
+        width: 100vw;
+        position: absolute;
+        background-color: black;
+        color: white;
+        top:50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #homeSection > #introDiv {
+        position: absolute;
+        width: 100%;
+        height: 805px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:120px;
+        z-index: 1;
+
+    }
+
+    #homeSection > #coverImgDiv {
+        position: absolute;
+        width: 80%;
+        height: 805px;
+         left: 10%;
+        margin: auto;
+
+        top: 10px;
+
+    }
+
+    #homeSection > #homeContactDiv {
+        /* position: absolute;
+         height: 805px;
+         width: 5%;
+         right: 4%;
+         margin: auto;
+ */
+        position: absolute;
+        width: 10%;
+        height: 805px;
+        left: 3%;
+        top: 30px;
+        margin: auto;
+
+    }
+
+
+    #homeSection > div > p {
+
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+    }
+
+    #homeSection > #coverImgDiv > img {
+        position: absolute;
+        top: 50px;
+        left: 80px;
+        right: 0;
+        margin: auto;
+        width: 270px;
+        height: 500px;
+        filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
+    }
+
+    #hellop {
+        position: absolute;
+        font-size: 40px;
+        /*left: 315px;*/
+        left: 0;
+        right: 0;
+        top: 50px;
+        margin: auto;
+    }
+    #namePIntro {
+        position: absolute;
+        font-size: 27px;
+        /*  left: 221px;*/
+        left:0;
+        right: 0;
+        top: 100px;
+        margin: auto;
+    }
+
+
+
+    #fromSL {
+        position: absolute;
+        font-size: 27px;
+        /*left: 278px;*/
+        left: 0;
+        right: 0;
+        top: 160px;
+        margin: auto;
+    }
+
+    #motto1 {
+
+        position: absolute;
+        font-size: 24px;
+        /* left: 155px;*/
+        left:0;
+        right: 0;
+        top: 242px;
+        margin: auto;
+    }
+
+    #motto2 {
+
+        position: absolute;
+        font-size: 24px;
+        left:0;
+        right: 0;
+        top: 278px;
+        margin: auto;
+
+
+    }
+
+    #homeSection > #homeContactDiv > a > img {
+        margin: 5px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #aboutSection {
+        height: 1000px;
+
+    }
+
+    #aboutSection > #aboutCoverImgDiv {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 10px;
+
+
+    }
+
+    #aboutSection > #aboutDescriptionDiv {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 80%;
+        height: 850px;
+    }
+
+    #aboutDescriptionDiv > #aboutMeHeading {
+
+        font-size: 90px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+
+    }
+
+    #whoAmI {
+        font-size: 30px;
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #descriptionMe {
+        font-size: 20px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 600px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #aboutCoverImgDiv > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+
+    #downloadCV {
+
+        color: #35A29F;
+        font-size: 15px;
+        position: absolute;
+        height: 8%;
+        width: 35%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: solid #35A29F;
+        text-align: center;
+        border-radius: 5px;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    body{
+        position: relative;
+
+    }
+
+
+
+
+    nav > ul {
+
+        list-style-type: none;
+
+
+    }
+
+    header>nav > ul > li {
+        display: inline;
+
+
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height:981px;
+        position: relative;
+        background-color: white;
+        color: black;
+        top:0px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+    header {
+        top: 0;
+        margin: auto;
+        height: 64px;
+        position: fixed;
+        background-color: black;
+        width: 100%;
+
+        border-bottom:solid #088194;
+        z-index: 9999;
+    }
+
+    header > nav {
+        position: absolute;
+        top: -100px;
+
+        display: inline-block;
+
+        bottom: 0;
+        right: 10px;
+        margin: auto;
+
+    }
+
+    #hamBtn {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 10px;
+        width: fit-content;
+    }
+
+    header > nav > ul > a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        margin: 10px;
+        font-family: Heebo;
+
+
+
+    }
+
+    header > img {
+        width: 80px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        left: 10px;
+
+    }
+
+    header > i {
+        display: none;
+    }
+
+    #homeSection {
+
+        height: 540px;
+        width: 100%;
+
+        position: relative;
+        background-color: black;
+        color: white;
+        top:50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #homeSection > #introDiv {
+        position: absolute;
+        width: 60%;
+        height: 805px;
+        left: 5%;
+        margin: auto;
+        top: 50px;
+
+
+    }
+
+    #homeSection > #coverImgDiv {
+        position: absolute;
+        width: 42%;
+        height: 805px;
+        left: 54%;
+        margin: auto;
+
+    }
+
+    #homeSection > #homeContactDiv {
+        /* position: absolute;
+         height: 805px;
+         width: 5%;
+         right: 4%;
+         margin: auto;
+ */
+        position: absolute;
+        width: 5%;
+        height: 805px;
+        right: 7%;
+        top: 90px;
+        margin: auto;
+
+    }
+
+    #homeSection > div > p {
+
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+    }
+
+    #homeSection > #coverImgDiv > img {
+        position: absolute;
+        top: 100px;
+        margin: auto;
+        width: 232px;
+        height: 435px;
+        filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
+    }
+
+    #hellop {
+        position: absolute;
+        font-size: 40px;
+        /*left: 315px;*/
+        left: 30%;
+        top: 50px;
+        margin: auto;
+    }
+    #namePIntro {
+        position: absolute;
+        font-size: 27px;
+        /*  left: 221px;*/
+        left: 10%;
+        top: 100px;
+        margin: auto;
+    }
+
+
+
+    #fromSL {
+        position: absolute;
+        font-size: 27px;
+        /*left: 278px;*/
+        left: 20%;
+        top: 160px;
+        margin: auto;
+    }
+
+    #motto1 {
+
+        position: absolute;
+        font-size: 24px;
+        /* left: 155px;*/
+        left: 20%;
+        top: 242px;
+        margin: auto;
+    }
+
+    #motto2 {
+
+        position: absolute;
+        font-size: 24px;
+        left: 0;
+        top: 278px;
+        margin: auto;
+
+
+    }
+
+    #homeSection > #homeContactDiv > a > img {
+        margin: 7px;
+    }
+
+    #aboutSection {
+        height: 1000px;
+
+    }
+
+    #aboutSection > #aboutCoverImgDiv {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 10px;
+
+
+    }
+
+    #aboutSection > #aboutDescriptionDiv {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 80%;
+        height: 850px;
+    }
+
+    #aboutDescriptionDiv > #aboutMeHeading {
+
+        font-size: 90px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+
+    }
+
+    #whoAmI {
+        font-size: 30px;
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #descriptionMe {
+        font-size: 20px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 600px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #aboutCoverImgDiv > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+
+    #downloadCV {
+
+        color: #35A29F;
+        font-size: 15px;
+        position: absolute;
+        height: 8%;
+        width: 35%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: solid #35A29F;
+        text-align: center;
+        border-radius: 5px;
+
+    }
+
+}
+
+/*@media only screen and (max-width: 834px) {
+   !* header {
+        top:0;
+        margin: auto;
+    }
+
+    header > nav {
+   top:-100px;
+
+    }
+
+    header > nav > ul > a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        margin: 10px;
+        font-family: Heebo;
+    }
+
+    header > img {
+        width: 80px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    header > i {
+        display: none;
+    }
+
+    #homeSection {
+
+     height: 540px;
+    }
+
+    #homeSection > #introDiv {
+        position: absolute;
+        width: 60%;
+        height: 805px;
+        left: 5%;
+        margin: auto;
+        top: 100px;
+
+
+    }
+
+    #homeSection > #coverImgDiv {
+        position: absolute;
+        width: 42%;
+        height: 805px;
+        left: 54%;
+        margin: auto;
+
+    }
+
+    #homeSection > #homeContactDiv {
+       !* position: absolute;
+        height: 805px;
+        width: 5%;
+        right: 4%;
+        margin: auto;
+*!
+        position: absolute;
+        width: 5%;
+        height: 805px;
+        right: 7%;
+        top: 90px;
+        margin: auto;
+
+    }
+
+    #homeSection > div > p {
+
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+    }
+
+    #homeSection > #coverImgDiv > img {
+        position: absolute;
+        top: 100px;
+        margin: auto;
+        width: 232px;
+        height: 435px;
+        filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
+    }
+
+    #hellop {
+        position: absolute;
+        font-size: 40px;
+        !*left: 315px;*!
+        left: 30%;
+        top: 50px;
+        margin: auto;
+    }
+    #namePIntro {
+        position: absolute;
+        font-size: 27px;
+        !*  left: 221px;*!
+        left: 10%;
+        top: 100px;
+        margin: auto;
+    }
+
+
+
+    #fromSL {
+        position: absolute;
+        font-size: 27px;
+        !*left: 278px;*!
+        left: 20%;
+        top: 160px;
+        margin: auto;
+    }
+
+    #motto1 {
+
+        position: absolute;
+        font-size: 24px;
+        !* left: 155px;*!
         left: 20%;
         top: 250px;
         margin: auto;
@@ -330,25 +1875,82 @@ header>img{
         text-align: center;
         border-radius: 5px;
 
-    }
-}
+    }*!
+}*/
 @media only screen and (min-width: 834px) {
+    body{
+        position: relative;
+
+    }
+
+
+
+
+    nav > ul {
+
+        list-style-type: none;
+
+
+    }
+
+    header>nav > ul > li {
+        display: inline;
+
+
+    }
+
+    #aboutSection{
+        width: 100%;
+        height:981px;
+        position: relative;
+        background-color: white;
+        color: black;
+        top:0px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
 
     header {
-        top:0;
+        top: 0;
         margin: auto;
+        position: fixed;
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        border-bottom:solid #088194;
+        z-index: 9999;
+
     }
 
     header > nav {
+        top: 0;
+        position: absolute;
+        display: inline-block;
+
+        bottom: 0;
+        right: 10px;
+        margin: auto;
 
     }
 
-    header > nav > ul> a {
+    #hamBtn {
+        /* position: absolute;
+         top: -100px;*/
+        display: none;
+    }
+
+    header > nav > ul > a {
         text-decoration: none;
         font-size: 20px;
         color: white;
         margin: 10px;
         font-family: Heebo;
+
     }
 
     header > img {
@@ -357,6 +1959,8 @@ header>img{
         top: 0;
         bottom: 0;
         margin: auto;
+        left: 10px;
+
     }
 
     header > i {
@@ -365,11 +1969,19 @@ header>img{
 
     #homeSection {
       height: 873px;
+
+        width: 100%;
+        position: relative;
+        background-color: black;
+        color: white;
+        top:67px;
+        margin: 0;
+        padding: 0;
     }
 
     #homeSection > #introDiv {
         position: absolute;
-        width: 60%;
+        width: 68%;
         height: 805px;
         left: 5%;
         margin: auto;
@@ -476,12 +2088,12 @@ header>img{
     #homeSection > #homeContactDiv > a > img {
         margin: 7px;
     }
-    #aboutSection>#aboutCoverImgDiv{
+    #aboutSection>#aboutCoverImgDiv {
         position: absolute;
-        top:12%;
-        left:5%;
+        top: 12%;
+        left: -52%;
         margin: auto;
-        width: 30%;
+        width: 37%;
         aspect-ratio: 1/1.3;
         border: solid #088395;
         border-radius: 20px;
@@ -497,34 +2109,34 @@ header>img{
        /* aspect-ratio: 1/0.735;*/
         height: 500px;
     }
-    #aboutDescriptionDiv>#aboutMeHeading{
+    #aboutDescriptionDiv>#aboutMeHeading {
 
-        font-size: 100px;
+        font-size: 81px;
         position: absolute;
         color: #35A29F;
 
-        left: 10%;
-        top:0;
+        left: 1%;
+        top: 0;
         opacity: 0.2;
         margin: auto;
         font-family: Jura;
         font-weight: 10;
 
     }
-    #whoAmI{
-        font-size: 40px;
+    #whoAmI {
+        font-size: 37px;
         position: absolute;
-        left: 35%;
-        top:45px;
+        left: 7%;
+        top: 35px;
         margin: auto;
         font-family: Heebo;
     }
-    #descriptionMe{
+    #descriptionMe {
         font-size: 25px;
         position: absolute;
         left: 10%;
         right: 10%;
-        top:170px;
+        top: 135px;
         margin: auto;
         font-family: Heebo;
     }
@@ -539,15 +2151,15 @@ header>img{
         height: 75%;
 
     }
-    #downloadCV{
+    #downloadCV {
 
         color: #35A29F;
         font-size: 15px;
         position: absolute;
         height: 13%;
         width: 30%;
-        left:0;
-        bottom: 20px;
+        left: 0;
+        bottom: 71px;
         right: 0;
         margin: auto;
         background-color: white;
@@ -559,106 +2171,181 @@ header>img{
 
 }
 
-    @media only screen and (min-width: 1300px) {
-
-        header {
-            top:0;
-            margin: auto;
-        }
-
-        header > nav {
-
-        }
-
-        header > nav >ul> a {
-            font-size: 24px;
-
-        }
-
-        header > img {
-            width: 100px;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-        }
-
-        header > i {
-            display: none;
-        }
-
-        #homeSection {
-
-        }
-
-        #homeSection > #introDiv {
-            position: absolute;
-            width: 60%;
-            height: 805px;
-            left: 5%;
-            margin: auto;
-            top: 32px;
+@media only screen and (min-width: 1024px) {
 
 
-        }
+    body{
+        position: relative;
 
-        #homeSection > #coverImgDiv {
-            position: absolute;
-            width: 42%;
-            height: 805px;
-            left: 54%;
-            margin: auto;
+    }
 
-        }
 
-        #homeSection > #homeContactDiv {
-            position: absolute;
-            width: 5%;
-            height: 805px;
-            right: 5%;
-            top: 150px;
-            margin: auto;
 
-        }
 
-        #homeSection > div > p {
+    nav > ul {
 
-            width: fit-content;
-            height: fit-content;
-            color: #0DB3AE;
-        }
+        list-style-type: none;
 
-        #homeSection > #coverImgDiv > img {
-            position: absolute;
-            top: 66px;
-            margin: auto;
-            width: 420px;
-            height: 804px;
-         /*  filter: grayscale(100%);*/
 
-          /* filter: saturate(0%);
-            filter: contrast(100%);
-            filter: brightness(100%);*/
-            filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
-        }
+    }
 
-        #hellop {
-            position: absolute;
-            font-size: 82px;
-            /*left: 315px;*/
-            left: 35%;
-            top: 80px;
-            margin: auto;
-        }
+    header>nav > ul > li {
+        display: inline;
 
-        #namePIntro {
-            position: absolute;
-            font-size: 40px;
-            /*  left: 221px;*/
-            left: 25%;
-            top: 208px;
-            margin: auto;
-        }
+
+    }
+
+
+    #homeSection{
+        width: 100%;
+        height:905px;
+        position: relative;
+        background-color: black;
+        color: white;
+        top:67px;
+        margin: 0;
+        padding: 0;
+
+    }
+    #aboutSection{
+        width: 100%;
+        height:981px;
+        position: relative;
+        background-color: white;
+        color: black;
+        top:0px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+    header {
+        top: 0;
+        margin: auto;
+
+        position: fixed;
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        border-bottom:solid #088194;
+        z-index: 9999;
+
+
+
+    }
+
+    header > nav {
+        top: 0;
+        position: absolute;
+        display: inline-block;
+
+        bottom: 0;
+        right: 10px;
+        margin: auto;
+
+    }
+
+    #hamBtn {
+        /*position: absolute;
+        top:-100px;*/
+        display: none;
+    }
+
+    header > nav > ul > a {
+
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: Heebo;
+        margin: 10px;
+    }
+
+    header > img {
+        width: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 10px;
+        margin: auto;
+    }
+
+    header > i {
+        display: none;
+    }
+
+
+
+    #homeSection > #introDiv {
+        position: absolute;
+        width: 60%;
+        height: 805px;
+        left: 5%;
+        margin: auto;
+        top: 32px;
+
+
+    }
+
+    #homeSection > #coverImgDiv {
+        position: absolute;
+        width: 42%;
+        height: 805px;
+        left: 54%;
+        margin: auto;
+
+    }
+
+    #homeSection > #homeContactDiv {
+        position: absolute;
+        width: 5%;
+        height: 805px;
+        right: 5%;
+        top: 150px;
+        margin: auto;
+
+    }
+
+    #homeSection > div > p {
+
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+    }
+
+    #homeSection > #coverImgDiv > img {
+        position: absolute;
+        top: 66px;
+        margin: auto;
+        width: 420px;
+        height: 804px;
+        /*  filter: grayscale(100%);*/
+
+        /* filter: saturate(0%);
+          filter: contrast(100%);
+          filter: brightness(100%);*/
+        filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
+    }
+
+    #hellop {
+        position: absolute;
+        font-size: 78px;
+        /*left: 315px;*/
+        left: 30%;
+        top: 80px;
+        margin: auto;
+    }
+
+    #namePIntro {
+        position: absolute;
+        font-size: 35px;
+        /*  left: 221px;*/
+        left: 20%;
+        top: 208px;
+        margin: auto;
+    }
 
     /*    #motto1 {
             position: absolute;
@@ -668,121 +2355,671 @@ header>img{
             margin: auto;
             font-family: 'Dosis', sans-serif;
         }*/
+    #fromSL {
+        position: absolute;
+        font-size: 35px;
+        /*left: 278px;*/
+        left: 25%;
+        top: 295px;
+        margin: auto;
+    }
 
-        #fromSL {
-            position: absolute;
-            font-size: 40px;
-            /*left: 278px;*/
-            left: 30%;
-            top: 304px;
-            margin: auto;
-        }
+    #motto1 {
 
-        #motto1 {
+        position: absolute;
+        font-size: 35px;
+        /* left: 155px;*/
+        left: 23%;
+        top: 438px;
+        font-family: 'Dosis', sans-serif;
+        margin: auto;
+    }
 
-            position: absolute;
-            font-size: 50px;
-            /* left: 155px;*/
-            left: 23%;
-            top: 438px;
-            font-family: 'Dosis', sans-serif;
-            margin: auto;
-        }
+    #motto2 {
 
-        #motto2 {
+        position: absolute;
+        font-size: 35px;
+        left: 0;
+        top: 500px;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 20;
+        margin: auto;
+    }
 
+    #homeSection > #homeContactDiv > a > img {
+        margin: 10px;
+    }
+
+    #aboutSection > #aboutCoverImgDiv {
+        position: absolute;
+        top: 15%;
+        left: -50%;
+        margin: auto;
+        width: 35%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 20px;
+
+
+    }
+
+    #aboutSection > #aboutDescriptionDiv {
+        position: absolute;
+        top: 12%;
+        left: 44%;
+        margin: auto;
+        width: 55%;
+        /*aspect-ratio: 1/0.735;*/
+        height: 600px;
+    }
+
+    #aboutDescriptionDiv > #aboutMeHeading {
+
+        font-size: 94px;
+        position: absolute;
+        color: #35A29F;
+
+        left: 2%;
+        top: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+
+    }
+
+    #whoAmI {
+        font-size: 50px;
+        position: absolute;
+        left: 10%;
+        top: 32px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #descriptionMe {
+        font-size: 32px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 170px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #aboutCoverImgDiv > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+
+    #downloadCV {
+
+        color: #35A29F;
+        font-size: 20px;
+        position: absolute;
+        height: 13%;
+        width: 38%;
+        left: 0;
+        bottom: 0px;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: solid #35A29F;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+
+    body{
+        position: relative;
+
+    }
+
+    nav > ul {
+
+        list-style-type: none;
+
+
+    }
+
+    header>nav > ul > li {
+        display: inline;
+
+
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height:981px;
+        position: relative;
+        background-color: white;
+        color: black;
+        top:80px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+
+     header {
+        top: 0;
+        margin: auto;
+
+
+         position: fixed;
+         background-color: black;
+         width: 100%;
+         height: 75px;
+         border-bottom:solid #088194;
+         z-index: 9999;
+
+
+    }
+
+    header > nav {
+        top: 0;
+
+        position: absolute;
+        display: inline-block;
+
+        bottom: 0;
+        right: 10px;
+        margin: auto;
+    }
+
+
+    header > nav > ul > a {
+        font-size: 24px;
+
+        color: white;
+        text-decoration: none;
+        /*font-size: 30px;*/
+        font-family: Heebo;
+        margin: 10px;
+
+    }
+
+
+    header > img {
+        width: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+
+        left: 10px;
+
+    }
+
+    #hamBtn {
+        /* position: absolute;
+         top:-100px;*/
+        display: none;
+    }
+
+
+    #homeSection {
+        width: 100%;
+        height:905px;
+        position: relative;
+        background-color: black;
+        color: white;
+        top:67px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #homeSection > #introDiv {
+        position: absolute;
+        width: 60%;
+        height: 805px;
+        left: 5%;
+        margin: auto;
+        top: 32px;
+
+
+    }
+
+    #homeSection > #coverImgDiv {
+        position: absolute;
+        width: 42%;
+        height: 805px;
+        left: 54%;
+        margin: auto;
+
+
+    }
+
+    #homeSection > #homeContactDiv {
+        position: absolute;
+        width: 5%;
+        height: 805px;
+        right: 5%;
+        top: 150px;
+        margin: auto;
+
+    }
+
+    #homeSection > div > p {
+
+        width: fit-content;
+        height: fit-content;
+        color: #0DB3AE;
+    }
+
+    #homeSection > #coverImgDiv > img {
+        position: absolute;
+        top: 66px;
+        margin: auto;
+        width: 420px;
+        height: 804px;
+        /*  filter: grayscale(100%);*/
+
+        /* filter: saturate(0%);
+          filter: contrast(100%);
+          filter: brightness(100%);*/
+        filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
+    }
+
+    #hellop {
+        position: absolute;
+        font-size: 82px;
+        /*left: 315px;*/
+        left: 35%;
+        top: 80px;
+        margin: auto;
+    }
+
+    #namePIntro {
+        position: absolute;
+        font-size: 40px;
+        /*  left: 221px;*/
+        left: 25%;
+        top: 208px;
+        margin: auto;
+    }
+
+    /*    #motto1 {
             position: absolute;
             font-size: 50px;
             left: 0;
-            top: 500px;
+            top: 250px;
+            margin: auto;
             font-family: 'Dosis', sans-serif;
-            font-weight: 20;
-            margin: auto;
-        }
+        }*/
+    #fromSL {
+        position: absolute;
+        font-size: 40px;
+        /*left: 278px;*/
+        left: 30%;
+        top: 304px;
+        margin: auto;
+    }
 
-        #homeSection > #homeContactDiv > a > img {
-            margin: 10px;
-        }
-        #aboutSection>#aboutCoverImgDiv{
-            position: absolute;
-            top:12%;
-            left:5%;
-            margin: auto;
-            width: 30%;
-            aspect-ratio: 1/1.3;
-            border: solid #088395;
-            border-radius: 20px;
+    #motto1 {
+
+        position: absolute;
+        font-size: 50px;
+        /* left: 155px;*/
+        left: 23%;
+        top: 438px;
+        font-family: 'Dosis', sans-serif;
+        margin: auto;
+    }
+
+    #motto2 {
+
+        position: absolute;
+        font-size: 50px;
+        left: 0;
+        top: 500px;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 20;
+        margin: auto;
+    }
+
+    #homeSection > #homeContactDiv > a > img {
+        margin: 10px;
+    }
+
+    #aboutSection > #aboutCoverImgDiv {
+        position: absolute;
+        /* top:12%;
+         left:5%;*/
+        margin: auto;
+        width: 30%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 20px;
 
 
-        }
-        #aboutSection>#aboutDescriptionDiv{
-            position: absolute;
-            top:12%;
-            left: 44%;
-            margin: auto ;
-            width: 55%;
-            /*aspect-ratio: 1/0.735;*/
-            height: 600px;
-        }
-        #aboutDescriptionDiv>#aboutMeHeading{
+        top: 15%;
+        left: -50%;
+        /*margin: auto;
+        width: 35%;
+        aspect-ratio: 1/1.3;
+        border: solid #088395;
+        border-radius: 20px;*/
 
-            font-size: 120px;
-            position: absolute;
-            color: #35A29F;
-
-            left: 10%;
-            top:0;
-            opacity: 0.2;
-            margin: auto;
-            font-family: Jura;
-            font-weight: 10;
-
-        }
-        #whoAmI{
-            font-size: 50px;
-            position: absolute;
-            left: 35%;
-            top:45px;
-            margin: auto;
-            font-family: Heebo;
-        }
-        #descriptionMe{
-            font-size: 32px;
-            position: absolute;
-            left: 10%;
-            right: 10%;
-            top:170px;
-            margin: auto;
-            font-family: Heebo;
-        }
-        #aboutCoverImgDiv>img{
-            position: absolute;
-            top:0;
-            left:0;
-            bottom: 0;
-            right: 0;
-            margin: auto;
-            width: 70%;
-            height: 75%;
-
-        }
-        #downloadCV{
-
-            color: #35A29F;
-            font-size: 20px;
-            position: absolute;
-            height: 13%;
-            width: 30%;
-            left:0;
-            bottom: 30px;
-            right: 0;
-            margin: auto;
-            background-color: white;
-            border: solid #35A29F;
-            text-align: center;
-            border-radius: 10px;
-
-        }
 
     }
+
+    #aboutSection > #aboutDescriptionDiv {
+        position: absolute;
+        top: 12%;
+        left: 44%;
+        margin: auto;
+        width: 55%;
+        /*aspect-ratio: 1/0.735;*/
+        height: 600px;
+    }
+
+    #aboutDescriptionDiv > #aboutMeHeading {
+
+        font-size: 120px;
+        position: absolute;
+        color: #35A29F;
+
+        left: 10%;
+        top: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+
+    }
+
+    #whoAmI {
+        font-size: 50px;
+        position: absolute;
+        left: 17%;
+        top: 45px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #descriptionMe {
+        font-size: 32px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        top: 170px;
+        margin: auto;
+        font-family: Heebo;
+    }
+
+    #aboutCoverImgDiv > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        height: 75%;
+
+    }
+
+    #downloadCV {
+
+        color: #35A29F;
+        font-size: 20px;
+        position: absolute;
+        height: 13%;
+        width: 30%;
+        left: 0;
+        bottom: 30px;
+        right: 0;
+        margin: auto;
+        background-color: white;
+        border: solid #35A29F;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+}
+
+/*  @media only screen and (min-width: 1300px) {*/
+
+/* header {
+     top:0;
+     margin: auto;
+ }
+
+ header > nav {
+
+ }
+
+ header > nav >ul> a {
+     font-size: 24px;
+
+ }
+
+ header > img {
+     width: 100px;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+ }
+
+ header > i {
+     display: none;
+ }
+
+ #homeSection {
+
+ }
+
+ #homeSection > #introDiv {
+     position: absolute;
+     width: 60%;
+     height: 805px;
+     left: 5%;
+     margin: auto;
+     top: 32px;
+
+
+ }
+
+ #homeSection > #coverImgDiv {
+     position: absolute;
+     width: 42%;
+     height: 805px;
+     left: 54%;
+     margin: auto;
+
+ }
+
+ #homeSection > #homeContactDiv {
+     position: absolute;
+     width: 5%;
+     height: 805px;
+     right: 5%;
+     top: 150px;
+     margin: auto;
+
+ }
+
+ #homeSection > div > p {
+
+     width: fit-content;
+     height: fit-content;
+     color: #0DB3AE;
+ }
+
+ #homeSection > #coverImgDiv > img {
+     position: absolute;
+     top: 66px;
+     margin: auto;
+     width: 420px;
+     height: 804px;
+  !*  filter: grayscale(100%);*!
+
+   !* filter: saturate(0%);
+     filter: contrast(100%);
+     filter: brightness(100%);*!
+     filter: grayscale(100%) contrast(130%) brightness(40%) saturate(50%);
+ }
+
+ #hellop {
+     position: absolute;
+     font-size: 82px;
+     !*left: 315px;*!
+     left: 35%;
+     top: 80px;
+     margin: auto;
+ }
+
+ #namePIntro {
+     position: absolute;
+     font-size: 40px;
+     !*  left: 221px;*!
+     left: 25%;
+     top: 208px;
+     margin: auto;
+ }
+
+!*    #motto1 {
+     position: absolute;
+     font-size: 50px;
+     left: 0;
+     top: 250px;
+     margin: auto;
+     font-family: 'Dosis', sans-serif;
+ }*!
+
+ #fromSL {
+     position: absolute;
+     font-size: 40px;
+     !*left: 278px;*!
+     left: 30%;
+     top: 304px;
+     margin: auto;
+ }
+
+ #motto1 {
+
+     position: absolute;
+     font-size: 50px;
+     !* left: 155px;*!
+     left: 23%;
+     top: 438px;
+     font-family: 'Dosis', sans-serif;
+     margin: auto;
+ }
+
+ #motto2 {
+
+     position: absolute;
+     font-size: 50px;
+     left: 0;
+     top: 500px;
+     font-family: 'Dosis', sans-serif;
+     font-weight: 20;
+     margin: auto;
+ }
+
+ #homeSection > #homeContactDiv > a > img {
+     margin: 10px;
+ }
+ #aboutSection>#aboutCoverImgDiv{
+     position: absolute;
+     top:12%;
+     left:5%;
+     margin: auto;
+     width: 30%;
+     aspect-ratio: 1/1.3;
+     border: solid #088395;
+     border-radius: 20px;
+
+
+ }
+ #aboutSection>#aboutDescriptionDiv{
+     position: absolute;
+     top:12%;
+     left: 44%;
+     margin: auto ;
+     width: 55%;
+     !*aspect-ratio: 1/0.735;*!
+     height: 600px;
+ }
+ #aboutDescriptionDiv>#aboutMeHeading{
+
+     font-size: 120px;
+     position: absolute;
+     color: #35A29F;
+
+     left: 10%;
+     top:0;
+     opacity: 0.2;
+     margin: auto;
+     font-family: Jura;
+     font-weight: 10;
+
+ }
+ #whoAmI{
+     font-size: 50px;
+     position: absolute;
+     left: 35%;
+     top:45px;
+     margin: auto;
+     font-family: Heebo;
+ }
+ #descriptionMe{
+     font-size: 32px;
+     position: absolute;
+     left: 10%;
+     right: 10%;
+     top:170px;
+     margin: auto;
+     font-family: Heebo;
+ }
+ #aboutCoverImgDiv>img{
+     position: absolute;
+     top:0;
+     left:0;
+     bottom: 0;
+     right: 0;
+     margin: auto;
+     width: 70%;
+     height: 75%;
+
+ }
+ #downloadCV{
+
+     color: #35A29F;
+     font-size: 20px;
+     position: absolute;
+     height: 13%;
+     width: 30%;
+     left:0;
+     bottom: 30px;
+     right: 0;
+     margin: auto;
+     background-color: white;
+     border: solid #35A29F;
+     text-align: center;
+     border-radius: 10px;
+
+ }*/
+
+
 
