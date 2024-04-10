@@ -1,0 +1,384 @@
+@media all and (max-width: 320px ) {
+}
+
+@media all and (min-width: 321px ) and (max-width: 460px) {
+}
+
+@media all and (min-width: 461px ) and (max-width: 768px) {
+    #educationSection {
+
+    }
+}
+
+@media all and (min-width: 769px ) and (max-width: 834px) {
+}
+
+@media all and (min-width: 835px ) and (max-width: 1024px) {
+    #verticalRule {
+        border: none;
+        border-left: 2px solid white;
+        height: 920px;
+        position: absolute;
+        top:270px;
+        left: 50%;
+        margin: auto;
+
+    }
+
+    #educationSection {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        width: 100%;
+        height: 1800px;
+        color: white;
+        top: 0;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #educationHeader {
+        position: absolute;
+        top: 50px;
+        font-size: 40px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+    }
+
+    #polegodaMv {
+        position: absolute;
+        width: 70%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 200px;
+        top: 160px;
+    }
+
+    #ASM {
+        position: absolute;
+        width: 70%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 200px;
+        top: 460px;
+    }
+
+
+    #Ijse {
+        position: absolute;
+        width: 70%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 130px;
+        top: 805px;
+    }
+
+    #Mora {
+        position: absolute;
+        width: 70%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 200px;
+        top: 1080px;
+    }
+
+    .dot {
+        position: absolute;
+        width: 20px;
+        aspect-ratio: 1/1;
+        background-color: white;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        border-radius: 20px;
+
+    }
+
+    .educationDetails {
+        width: 40%;
+        height: fit-content;
+        position: absolute;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
+    .educationImg{
+        width: 120px;
+
+    }
+    #polegodaMv>img{
+        width: 100px;
+    }
+    .educationPlaces{
+        position: absolute;
+        bottom: 20%;
+        margin: auto;
+    }
+    .timePeriod{
+        width: 40%;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        margin: auto;
+        bottom: 0;
+    }
+}
+
+@media all and (min-width: 1025px ) and (max-width: 1440px) {
+    #verticalRule {
+        border: none;
+        border-left: 2px solid white;
+        height: 920px;
+        position: absolute;
+        top:285px;
+        left: 50%;
+        margin: auto;
+
+    }
+
+    #educationSection {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        width: 100%;
+        height: 1500px;
+        color: white;
+        top: 0;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #educationHeader {
+        position: absolute;
+        top: 50px;
+        font-size: 50px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+    }
+
+    #polegodaMv {
+        position: absolute;
+        width: 60%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 250px;
+        top: 160px;
+    }
+
+    #ASM {
+        position: absolute;
+        width: 60%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 250px;
+        top: 460px;
+    }
+
+
+    #Ijse {
+        position: absolute;
+        width: 60%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 130px;
+        top: 835px;
+    }
+
+    #Mora {
+        position: absolute;
+        width: 60%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 250px;
+        top: 1080px;
+    }
+
+    .dot {
+        position: absolute;
+        width: 20px;
+        aspect-ratio: 1/1;
+        background-color: white;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        border-radius: 20px;
+
+    }
+
+    .educationDetails {
+        width: 40%;
+        height: fit-content;
+        position: absolute;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
+    .educationImg{
+        width: 150px;
+
+    }
+    #polegodaMv>img{
+        width: 130px;
+    }
+    .educationPlaces{
+        position: absolute;
+       bottom: 20%;
+        margin: auto;
+    }
+    .timePeriod{
+        width: 40%;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        margin: auto;
+        bottom: 0;
+    }
+}
+
+@media all and  (min-width: 1440px) {
+    #verticalRule {
+        border: none;
+        border-left: 2px solid white;
+        height: 920px;
+        position: absolute;
+        top:285px;
+        left: 50%;
+        margin: auto;
+
+    }
+
+    #educationSection {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        width: 100%;
+        height: 1800px;
+        color: white;
+        top: 0;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #educationHeader {
+        position: absolute;
+        top: 50px;
+        font-size: 60px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+    }
+
+    #polegodaMv {
+        position: absolute;
+        width: 60%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 250px;
+        top: 160px;
+    }
+
+    #ASM {
+        position: absolute;
+        width: 60%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 250px;
+        top: 460px;
+    }
+
+
+    #Ijse {
+        position: absolute;
+        width: 60%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 130px;
+        top: 835px;
+    }
+
+    #Mora {
+        position: absolute;
+        width: 60%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        height: 250px;
+        top: 1080px;
+    }
+
+    .dot {
+        position: absolute;
+        width: 20px;
+        aspect-ratio: 1/1;
+        background-color: white;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        border-radius: 20px;
+
+    }
+
+    .educationDetails {
+        width: 40%;
+        height: fit-content;
+        position: absolute;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
+    .educationImg{
+        width: 150px;
+
+    }
+    #polegodaMv>img{
+        width: 130px;
+    }
+    .educationPlaces{
+        position: absolute;
+        bottom: 20%;
+        margin: auto;
+    }
+    .timePeriod{
+        width: 40%;
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        margin: auto;
+        bottom: 0;
+    }
+
+}
