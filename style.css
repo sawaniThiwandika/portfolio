@@ -1,4 +1,4 @@
-
+body{overflow-x: hidden}
 @media all and (max-width: 320px ){
     body{
         position: relative;
@@ -2052,6 +2052,7 @@ top: 0;
         left: 0;
         top: 250px;
         margin: auto;
+        opacity: 0.2;
         font-family: 'Dosis', sans-serif;
     }
     #fromSL {
@@ -2071,6 +2072,7 @@ top: 0;
         left: 23%;
         top: 438px;
         font-family: 'Dosis', sans-serif;
+        opacity: 0.2;
         margin: auto;
     }
 
@@ -2082,6 +2084,7 @@ top: 0;
         top: 500px;
         font-family: 'Dosis', sans-serif;
         font-weight: 20;
+        opacity: 0.2;
         margin: auto;
     }
 
