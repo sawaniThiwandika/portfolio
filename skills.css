@@ -1,7 +1,139 @@
 @media all and (max-width: 320px ){}
 @media all and (min-width: 321px ) and (max-width: 460px){}
-@media all and (min-width: 461px ) and (max-width: 768px){}
-@media all and (min-width: 769px ) and (max-width: 834px){}
+@media all and (min-width: 461px ) and (max-width: 768px){
+    #skillsSection{
+        width: 100%;
+        position: relative;
+        height: 1400px;
+    }
+    #iamBestInHeader{
+        font-size: 70px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 40px;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+    }
+    #skillsHeader{
+        font-size: 40px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 60px;
+        font-family: Jura;
+        margin: auto;
+
+    }
+    #softwareSkills{
+        width: 90%;
+        height: 500px;
+        left: 5%;
+
+        position: absolute;
+        border: solid #088194;
+        top: 200px;
+        border-radius: 15px;
+    }
+    #softSkills{
+        width: 90%;
+        height: 500px;
+
+        left: 5%;
+        position: absolute;
+        border: solid #088194;
+        top: 800px;
+        border-radius: 15px;
+    }
+    #softSkills>ol>li{
+        font-size: 30px;
+        /* margin: 20px;*/
+        left: 0;
+        right: 0;
+        width: fit-content;
+        margin-left: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+    #softwareSkills>img{
+        width: 150px;
+        margin: 10px;
+    }
+}
+@media all and (min-width: 769px ) and (max-width: 834px){
+    #skillsSection{
+        width: 100%;
+        position: relative;
+        height: 1200px;
+    }
+    #iamBestInHeader{
+        font-size: 100px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 40px;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+    }
+    #skillsHeader{
+        font-size: 50px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 70px;
+        font-family: Jura;
+        margin: auto;
+
+    }
+    #softwareSkills{
+        width: 90%;
+        height: 400px;
+        left: 5%;
+
+        position: absolute;
+        border: solid #088194;
+        top: 200px;
+        border-radius: 15px;
+    }
+    #softSkills{
+        width: 90%;
+        height: 400px;
+
+        left: 5%;
+        position: absolute;
+        border: solid #088194;
+        top: 700px;
+        border-radius: 15px;
+    }
+    #softSkills>ol>li{
+        font-size: 26px;
+        /* margin: 20px;*/
+        left: 0;
+        right: 0;
+        width: fit-content;
+        margin-left: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+    #softwareSkills>img{
+        width: 150px;
+        margin: 10px;
+    }
+}
 @media all and (min-width: 835px ) and (max-width: 1024px){
     #skillsSection{
         width: 100%;
