@@ -1,0 +1,38 @@
+#serviceSection{
+    width: 100%;
+    position: relative;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#servicesHeader{
+    position: absolute;
+    top: 50px;
+    font-size: 60px;
+    color: #35A29F;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: 100px;
+    font-family: Jura;
+
+}
+#webDevelopmentDiv{
+    width: 40%;
+    position: absolute;
+    height: 500px;
+    top: 150px;
+    left: 5%;
+    color: white;
+}
+#databaseDesignDiv{
+    width: 40%;
+    position: absolute;
+    height: 500px;
+    top: 150px;
+    right: 5%;
+    color: white;
+}
+#serviceSection>div{
+
+}
