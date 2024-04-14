@@ -1,4 +1,70 @@
-@media all and (max-width: 320px ){}
+@media all and (max-width: 320px ){
+    #skillsSection{
+        width: 100%;
+        position: relative;
+        height: 1000px;
+    }
+    #iamBestInHeader{
+        font-size: 40px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 40px;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+    }
+    #skillsHeader{
+        font-size: 25px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 50px;
+        font-family: Jura;
+        margin: auto;
+
+    }
+    #softwareSkills{
+        width: 90%;
+        height: 350px;
+        left: 5%;
+
+        position: absolute;
+        border: solid #088194;
+        top: 120px;
+        border-radius: 15px;
+    }
+    #softSkills{
+        width: 90%;
+        height: 350px;
+
+        left: 5%;
+        position: absolute;
+        border: solid #088194;
+        top: 510px;
+        border-radius: 15px;
+    }
+    #softSkills>ol>li{
+        font-size: 20px;
+        /* margin: 20px;*/
+        left: 0;
+        right: 0;
+        width: fit-content;
+        margin-left: 10%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: fit-content;
+    }
+    #softwareSkills>img{
+        width: 90px;
+        margin: 10px;
+    }
+}
 @media all and (min-width: 321px ) and (max-width: 460px){
     #skillsSection{
         width: 100%;

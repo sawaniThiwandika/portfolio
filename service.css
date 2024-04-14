@@ -1,7 +1,496 @@
+@media all and (max-width: 320px ){
+    #serviceSection{
+        width: 100%;
+        position: relative;
+        height: 1100px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #servicesHeader{
+        position: absolute;
+        top: 50px;
+        font-size: 40px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+
+    }
+    #webDevelopmentDiv{
+        width: 90%;
+        position: absolute;
+        height: 400px;
+        top: 150px;
+        left: 5%;
+        color: white;
+    }
+    #databaseDesignDiv{
+        width: 90%;
+        position: absolute;
+        height: 400px;
+        top: 600px;
+        right: 5%;
+        color: white;
+    }
+    #serviceSection>div>h4{
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+
+    }
+    #serviceSection>div>img{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 60px;
+        width: 200px;
+
+    }
+    #serviceSection>div>ul{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:230px
+
+    }
+    #serviceSection>div>ul>li{
+        margin: 10px;
+
+    }
+}
+@media all and (min-width: 321px ) and (max-width: 460px){
+    #serviceSection{
+        width: 100%;
+        position: relative;
+        height: 1200px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #servicesHeader{
+        position: absolute;
+        top: 50px;
+        font-size: 40px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+
+    }
+    #webDevelopmentDiv{
+        width: 90%;
+        position: absolute;
+        height: 400px;
+        top: 150px;
+        left: 5%;
+        color: white;
+    }
+    #databaseDesignDiv{
+        width: 90%;
+        position: absolute;
+        height: 400px;
+        top: 650px;
+        right: 5%;
+        color: white;
+    }
+    #serviceSection>div>h4{
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+
+    }
+    #serviceSection>div>img{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 50px;
+        width: 320px;
+
+    }
+    #serviceSection>div>ul{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:300px
+
+    }
+    #serviceSection>div>ul>li{
+        margin: 10px;
+
+    }
+}
+@media all and (min-width: 461px ) and (max-width: 768px){
+    #serviceSection{
+        width: 100%;
+        position: relative;
+        height: 1200px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #servicesHeader{
+        position: absolute;
+        top: 50px;
+        font-size: 50px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+
+    }
+    #webDevelopmentDiv{
+        width: 90%;
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        left: 5%;
+        color: white;
+    }
+    #databaseDesignDiv{
+        width: 90%;
+        position: absolute;
+        height: 400px;
+        top: 700px;
+        right: 5%;
+        color: white;
+    }
+    #serviceSection>div>h4{
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+
+    }
+    #serviceSection>div>img{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 50px;
+        width: 320px;
+
+    }
+    #serviceSection>div>ul{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:300px
+
+    }
+    #serviceSection>div>ul>li{
+        margin: 10px;
+        font-size: 20px;
+
+    }
+}
+@media all and (min-width: 769px ) and (max-width: 834px){
+    #serviceSection{
+        width: 100%;
+        position: relative;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #servicesHeader{
+        position: absolute;
+        top: 50px;
+        font-size: 60px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+
+    }
+    #webDevelopmentDiv{
+        width: 40%;
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        left: 5%;
+        color: white;
+    }
+    #databaseDesignDiv{
+        width: 40%;
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        right: 5%;
+        color: white;
+    }
+    #serviceSection>div>h4{
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+
+    }
+    #serviceSection>div>img{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 50px;
+        width: 320px;
+
+    }
+    #serviceSection>div>ul{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:300px
+
+    }
+    #serviceSection>div>ul>li{
+        margin: 10px;
+
+    }
+}
+@media all and (min-width: 835px ) and (max-width: 1024px){
+    #serviceSection{
+        width: 100%;
+        position: relative;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #servicesHeader{
+        position: absolute;
+        top: 50px;
+        font-size: 60px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+
+    }
+    #webDevelopmentDiv{
+        width: 40%;
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        left: 5%;
+        color: white;
+    }
+    #databaseDesignDiv{
+        width: 40%;
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        right: 5%;
+        color: white;
+    }
+    #serviceSection>div>h4{
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+
+    }
+    #serviceSection>div>img{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 50px;
+        width: 320px;
+
+    }
+    #serviceSection>div>ul{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:300px
+
+    }
+    #serviceSection>div>ul>li{
+        margin: 10px;
+        font-size: 20px;
+
+    }
+}
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    #serviceSection{
+        width: 100%;
+        position: relative;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #servicesHeader{
+        position: absolute;
+        top: 50px;
+        font-size: 60px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+
+    }
+    #webDevelopmentDiv{
+        width: 40%;
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        left: 5%;
+        color: white;
+    }
+    #databaseDesignDiv{
+        width: 40%;
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        right: 5%;
+        color: white;
+    }
+    #serviceSection>div>h4{
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+
+    }
+    #serviceSection>div>img{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 50px;
+        width: 320px;
+
+    }
+    #serviceSection>div>ul{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:300px
+
+    }
+    #serviceSection>div>ul>li{
+        margin: 10px;
+        font-size: 24px;
+
+    }
+}
+@media all and  (min-width:1440px){
+    #serviceSection{
+        width: 100%;
+        position: relative;
+        height: 800px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #servicesHeader{
+        position: absolute;
+        top: 50px;
+        font-size: 60px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        height: 100px;
+        font-family: Jura;
+
+    }
+    #webDevelopmentDiv{
+        width: 40%;
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        left: 5%;
+        color: white;
+    }
+    #databaseDesignDiv{
+        width: 40%;
+        position: absolute;
+        height: 400px;
+        top: 200px;
+        right: 5%;
+        color: white;
+    }
+    #serviceSection>div>h4{
+        width: fit-content;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+
+    }
+    #serviceSection>div>img{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 50px;
+        width:320px;
+
+    }
+    #serviceSection>div>ul{
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:300px
+
+    }
+    #serviceSection>div>ul>li{
+        margin: 10px;
+        font-size: 24px;
+
+    }
+}
+
+/*
 #serviceSection{
     width: 100%;
     position: relative;
-    height: 1000px;
+    height: 800px;
     background-color: rgba(0, 0, 0, 0.9);
 }
 #servicesHeader{
@@ -20,19 +509,47 @@
 #webDevelopmentDiv{
     width: 40%;
     position: absolute;
-    height: 500px;
-    top: 150px;
+    height: 400px;
+    top: 200px;
     left: 5%;
     color: white;
 }
 #databaseDesignDiv{
     width: 40%;
     position: absolute;
-    height: 500px;
-    top: 150px;
+    height: 400px;
+    top: 200px;
     right: 5%;
     color: white;
 }
-#serviceSection>div{
+#serviceSection>div>h4{
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
 
 }
+#serviceSection>div>img{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50px;
+
+}
+#serviceSection>div>ul{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top:300px
+
+}
+#serviceSection>div>ul>li{
+   margin: 10px;
+
+}*/
