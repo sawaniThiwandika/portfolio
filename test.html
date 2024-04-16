@@ -5,60 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive Website Example</title>
 <style>
-  body {
-    font-family: Arial, sans-serif;
+  .image-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Gap between cells */
+
   }
 
-  header {
-    background-color: #333;
-    color: #fff;
+  .image-cell {
+    background-color: #ddd; /* Gray background for image cells, replace with your images */
     padding: 20px;
-  }
-
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
     text-align: center;
   }
 
-  /* Styles for desktop */
-  @media only screen and (min-width: 768px) {
-    header h1 {
-      font-size: 36px;
-    }
-
-    main {
-      padding: 20px;
-    }
+  .view-more-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Change display to block to make it a block-level element */
+    margin-top: 20px; /* Add some space between image grid and button */
+    cursor: pointer;
+    border-radius: 8px;
   }
 
-  /* Styles for mobile */
-  @media only screen and (max-width: 767px) {
-    header h1 {
-      font-size: 24px;
-    }
-
-    main {
-      padding: 10px;
-    }
+  .view-more-btn:hover {
+    background-color: #45a049; /* Darker Green */
   }
 </style>
 </head>
 <body>
-<header>
-  <h1>My Website</h1>
-</header>
+<div class="image-table">
+  <div class="image-cell">Image 1</div>
+  <div class="image-cell">Image 2</div>
+  <div class="image-cell">Image 3</div>
+  <!-- Add more image cells as needed -->
+</div>
 
-<main>
-  <section>
-    <h2>Welcome to our website</h2>
-    <p>This is a simple example of a responsive website layout.</p>
-  </section>
-</main>
+<button class="view-more-btn">View More</button>
 
-<footer>
-  <p>&copy; 2024 My Website. All rights reserved.</p>
-</footer>
 </body>
 </html>
