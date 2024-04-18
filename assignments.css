@@ -11,5 +11,68 @@
         position: relative;
         background-color: rgba(0, 0, 0, 0.9);
     }
+    #worksHeaderAssignment {
+        font-size: 120px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        top: 50px;
+        right: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+    }
+
+    #assignmentHeader{
+        font-size: 40px;
+        position: absolute;
+        color: white;
+        width: fit-content;
+        left: 0;
+        top: 105px;
+        right: 0;
+        margin: auto;
+        font-family: Heebo;
+        font-weight: 10;
+    }
+
+    .assignment-table {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 3px;
+        width: calc(100% - 200px);
+        height: calc(100% - 600px);
+        left:0;
+        right: 0;
+        margin: auto;
+        top: 200px;
+      /*  transform: translate(-50%, -50%);*/
+
+
+    }
+
+    .assignmentDiv {
+
+        width: 200px;
+        height: 250px;
+        border:  solid #35A29F;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+    .assignmentDiv>img{
+        position: absolute;
+        width: 200px;
+    }
 
 }
