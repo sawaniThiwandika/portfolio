@@ -70,9 +70,20 @@
         border-radius: 10px;
 
     }
-    .assignmentDiv>img{
-        position: absolute;
-        width: 200px;
+    .assignmentDiv>h4{
+        width: fit-content;
+        /*position: absolute;*/
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 20px;
+        color: #35A29F;
+        font-family: Heebo;
     }
+    .assignmentDiv>img{
+
+        width: 150px;
+    }
+
 
 }
