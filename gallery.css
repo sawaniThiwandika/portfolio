@@ -42,15 +42,18 @@
     background-color: black;
     border-radius: 10px;
 
+
 }
 
 #galleryTailor {
     position: absolute;
-    width: 200vw;
+    width: 1550px;
     height: 400px;
     top: 0;
     bottom: 0;
-    margin: auto
+    margin: auto;
+   animation: animi 8s linear infinite;
+
 }
 #galleryTailor>img{
     width: 300px;
@@ -60,3 +63,43 @@
     border-width: 0;
     filter: grayscale(100%);
 }
+#galleryTailor02 {
+    position: absolute;
+    width: 1550px;
+    height: 400px;
+    top: 0;
+    bottom: 0;
+    left: 1510px;
+    margin: auto;
+    animation: animi 8s linear infinite;
+
+}
+#galleryTailor02>img{
+    width: 300px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    filter: grayscale(100%);
+}
+/*@keyframes animi {
+    from {
+        transform: translateX(-0%) ;
+    }
+    to {
+        transform: translateX(-100%);
+    }*/
+
+@keyframes animi {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
