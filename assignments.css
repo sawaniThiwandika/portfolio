@@ -2,8 +2,216 @@
 @media all and (min-width: 321px ) and (max-width: 460px){}
 @media all and (min-width: 461px ) and (max-width: 768px){}
 @media all and (min-width: 769px ) and (max-width: 834px){}
-@media all and (min-width: 835px ) and (max-width: 1024px){}
-@media all and (min-width: 1025px ) and (max-width: 1440px){}
+@media all and (min-width: 835px ) and (max-width: 1024px){
+    #assignmentSection{
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #worksHeaderAssignment {
+        font-size: 120px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        top: 50px;
+        right: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+    }
+
+    #assignmentHeader{
+        font-size: 40px;
+        position: absolute;
+        color: white;
+        width: fit-content;
+        left: 0;
+        top: 105px;
+        right: 0;
+        margin: auto;
+        font-family: Heebo;
+        font-weight: 10;
+    }
+
+    .assignment-table {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+        width: calc(100vw - 200px);
+        height: calc(100% - 300px);
+        left:0;
+        right: 0;
+        margin: auto;
+        top: 200px;
+        /*  transform: translate(-50%, -50%);*/
+
+
+    }
+
+    .assignmentDiv {
+
+        width: 175px;
+        height: 230px;
+        border:  solid #35A29F;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+    .assignmentDiv>h4{
+        width: fit-content;
+        /*position: absolute;*/
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 20px;
+        color: #35A29F;
+        font-family: Heebo;
+    }
+    .assignmentDiv>img{
+
+        width: 150px;
+        margin: 5px;
+    }
+    .assignmentDiv>button{
+        width: fit-content;
+        height: 20px;
+        margin: 5px;
+        font-size: 20px;
+        border-radius: 5px;
+
+        background-color:rgba(0, 0, 0, 0) ;
+        border: rgba(0, 0, 0, 0.9);
+
+
+    }
+    .assignmentDiv>button>a{
+        color:#35A29F;
+        text-decoration: none;
+        font-family: Heebo;
+        font-size: 20px;
+
+    }
+    .assignmentDiv>button>img{
+        width: 35px;
+        margin: 5px;
+    }
+}
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    #assignmentSection{
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #worksHeaderAssignment {
+        font-size: 120px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        top: 50px;
+        right: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+    }
+
+    #assignmentHeader{
+        font-size: 40px;
+        position: absolute;
+        color: white;
+        width: fit-content;
+        left: 0;
+        top: 105px;
+        right: 0;
+        margin: auto;
+        font-family: Heebo;
+        font-weight: 10;
+    }
+
+    .assignment-table {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+        width: calc(100vw - 200px);
+        height: calc(100% - 300px);
+        left:0;
+        right: 0;
+        margin: auto;
+        top: 200px;
+        /*  transform: translate(-50%, -50%);*/
+
+
+    }
+
+    .assignmentDiv {
+
+        width: 175px;
+        height: 230px;
+        border:  solid #35A29F;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+    .assignmentDiv>h4{
+        width: fit-content;
+        /*position: absolute;*/
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 20px;
+        color: #35A29F;
+        font-family: Heebo;
+    }
+    .assignmentDiv>img{
+
+        width: 150px;
+        margin: 5px;
+    }
+    .assignmentDiv>button{
+        width: fit-content;
+        height: 20px;
+        margin: 5px;
+        font-size: 20px;
+        border-radius: 5px;
+
+        background-color:rgba(0, 0, 0, 0) ;
+        border: rgba(0, 0, 0, 0.9);
+
+
+    }
+    .assignmentDiv>button>a{
+        color:#35A29F;
+        text-decoration: none;
+        font-family: Heebo;
+        font-size: 20px;
+
+    }
+    .assignmentDiv>button>img{
+        width: 35px;
+        margin: 5px;
+    }
+}
 @media all and  (min-width:1440px){
     #assignmentSection{
         width: 100%;
