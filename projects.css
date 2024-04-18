@@ -1,18 +1,13 @@
 @media all and (max-width: 320px ) {
-}
 
-@media all and (min-width: 321px ) and (max-width: 460px) {
-}
-
-@media all and (min-width: 461px ) and (max-width: 768px) {
     #projectSection {
-        width: 100%;
-        height: 1300px;
+        width: 100vw;
+        height: 2000px;
         position: relative;
     }
 
     #worksHeader {
-        font-size: 80px;
+        font-size: 70px;
         position: absolute;
         color: #35A29F;
         width: fit-content;
@@ -26,12 +21,12 @@
     }
 
     #projectsHeader {
-        font-size: 25px;
+        font-size: 22px;
         position: absolute;
         color: black;
         width: fit-content;
         left: 0;
-        top: 90px;
+        top: 83px;
         right: 0;
         margin: auto;
         font-family: Heebo;
@@ -41,14 +36,16 @@
     .image-table {
         position: absolute;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 3px;
-        width: calc(100% - 200px);
-        height: calc(100% - 300px);
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+        width: 100vw;
+        height: calc(100% - 700px);
+        left:0;
+        right: 0;
+        margin: auto;
+        top: 200px;
+        /* transform: translate(-50%, -50%);*/
 
 
     }
@@ -99,6 +96,256 @@
         border-radius: 5px;
         border:   rgba(255, 255, 255, 0.5) ;
         background-color: rgba(255, 255, 255, 0.5);
+        color: white;
+
+
+    }
+    #projectSection > div > div > button>a {
+       text-decoration: none;
+        color: white;
+
+
+    }
+
+    #projectSection > div > div > p {
+        width: fit-content;
+        height: fit-content;
+        margin: 20px;
+
+        left: 0;
+        right: 0;
+        color:  rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+
+    }
+}
+
+@media all and (min-width: 321px ) and (max-width: 460px) {
+    #projectSection {
+        width: 100vw;
+        height: 2000px;
+        position: relative;
+    }
+
+    #worksHeader {
+        font-size: 80px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        top: 50px;
+        right: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+    }
+
+    #projectsHeader {
+        font-size: 25px;
+        position: absolute;
+        color: black;
+        width: fit-content;
+        left: 0;
+        top: 90px;
+        right: 0;
+        margin: auto;
+        font-family: Heebo;
+        font-weight: 10;
+    }
+
+    .image-table {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+        width: 100vw;
+        height: calc(100% - 700px);
+        left:0;
+        right: 0;
+        margin: auto;
+        top: 200px;
+       /* transform: translate(-50%, -50%);*/
+
+
+    }
+
+    .projectDiv {
+
+        width: 200px;
+        height: 350px;
+        background-color: #088194;
+        border-radius: 20px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #projectSection > div > div > h4 {
+        width: fit-content;
+        /*position: absolute;*/
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 20px;
+        color: white;
+    }
+
+    #projectSection > div > div > img {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 20px;
+        font-size: 20px;
+        width: 150px;
+        height: 100px;
+
+
+    }
+
+    #projectSection > div > div > button {
+        width: 100px;
+        height: 40px;
+        margin: auto;
+        font-size: 20px;
+        border-radius: 5px;
+        border:   rgba(255, 255, 255, 0.5) ;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: white;
+
+
+    }
+    #projectSection > div > div > button>a {
+        text-decoration: none;
+        color: white;
+
+
+    }
+
+    #projectSection > div > div > p {
+        width: fit-content;
+        height: fit-content;
+        margin: 20px;
+
+        left: 0;
+        right: 0;
+        color:  rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+
+    }
+
+}
+
+@media all and (min-width: 461px ) and (max-width: 768px) {
+    #projectSection {
+        width: 100%;
+        height: 1150px;
+        position: relative;
+    }
+
+    #worksHeader {
+        font-size: 80px;
+        position: absolute;
+        color: #35A29F;
+        width: fit-content;
+        left: 0;
+        top: 50px;
+        right: 0;
+        opacity: 0.2;
+        margin: auto;
+        font-family: Jura;
+        font-weight: 10;
+    }
+
+    #projectsHeader {
+        font-size: 25px;
+        position: absolute;
+        color: black;
+        width: fit-content;
+        left: 0;
+        top: 90px;
+        right: 0;
+        margin: auto;
+        font-family: Heebo;
+        font-weight: 10;
+    }
+
+    .image-table {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+    /*    width: calc(100% - 200px);*/
+        width: 80%;
+        height: calc(100% - 700px);
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 200px;
+        /*transform: translate(-50%, -50%);*/
+
+
+    }
+
+    .projectDiv {
+
+        width: 200px;
+        height: 350px;
+        background-color: #088194;
+        border-radius: 20px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #projectSection > div > div > h4 {
+        width: fit-content;
+        /*position: absolute;*/
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 20px;
+        color: white;
+    }
+
+    #projectSection > div > div > img {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 20px;
+        font-size: 20px;
+        width: 150px;
+        height: 100px;
+
+
+    }
+
+    #projectSection > div > div > button {
+        width: 100px;
+        height: 40px;
+        margin: auto;
+        font-size: 20px;
+        border-radius: 5px;
+        border:   rgba(255, 255, 255, 0.5) ;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: white;
+
+
+    }
+    #projectSection > div > div > button>a {
+        text-decoration: none;
         color: white;
 
 
@@ -157,12 +404,14 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        gap: 3px;
+        gap: 30px;
         width: calc(100% - 200px);
-        height: calc(100% - 300px);
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        height: calc(100% - 700px);
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 15%;
+      /*  transform: translate(-50%, -50%);*/
 
 
     }
@@ -213,6 +462,12 @@
         border-radius: 5px;
         border:   rgba(255, 255, 255, 0.5) ;
         background-color: rgba(255, 255, 255, 0.5);
+        color: white;
+
+
+    }
+    #projectSection > div > div > button>a {
+        text-decoration: none;
         color: white;
 
 
@@ -331,6 +586,12 @@
 
 
     }
+    #projectSection > div > div > button>a {
+        text-decoration: none;
+        color: white;
+
+
+    }
 
     #projectSection > div > div > p {
         width: fit-content;
@@ -349,7 +610,7 @@
 @media all and (min-width: 1025px ) and (max-width: 1440px) {
     #projectSection {
         width: 100%;
-        height: 1000px;
+        height: 1300px;
         position: relative;
     }
 
@@ -445,6 +706,12 @@
 
 
     }
+    #projectSection > div > div > button>a {
+        text-decoration: none;
+        color: white;
+
+
+    }
 
     #projectSection > div > div > p {
         width: fit-content;
@@ -462,7 +729,7 @@
 @media all and  (min-width: 1440px) {
     #projectSection {
         width: 100%;
-        height: 1000px;
+        height: 1300px;
         position: relative;
     }
 
@@ -554,6 +821,12 @@
         border-radius: 5px;
         border:   rgba(255, 255, 255, 0.5) ;
         background-color: rgba(255, 255, 255, 0.5);
+        color: white;
+
+
+    }
+    #projectSection > div > div > button>a {
+        text-decoration: none;
         color: white;
 
 
