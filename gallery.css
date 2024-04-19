@@ -754,3 +754,9 @@
         }
     }
 }
+#galleryTailor>img:hover{
+    filter: grayscale(0%);
+}
+#galleryTailor02>img:hover{
+    filter: grayscale(0%);
+}
