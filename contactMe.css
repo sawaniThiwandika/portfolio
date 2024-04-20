@@ -30,7 +30,7 @@
     #contactMeSection {
         width: 100%;
         position: relative;
-        height: 1500px;
+        height: 700px;
 
     }
 
@@ -58,6 +58,101 @@
         width: 75%;
         font-family: Heebo;
     }
+    #contactForm{
+        position: absolute;
+        top: 350px;
+        font-size: 27px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 75%;
+        height: 250px;
+
+    }
+
+    #contactForm>label{
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Heebo;
+        color: #088194;
+    }
+    #labelName{
+        position: absolute;
+        top: 0;
+        margin: auto;
+    }
+    #labelEmail{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin: auto;
+    }
+    #name{
+        position: absolute;
+        top: 25px;
+        margin: auto;
+    }
+    #Email{
+        position: absolute;
+        top: 25px;
+        left:50%;
+        margin: auto;
+    }
+    #labelContact{
+        position: absolute;
+        top: 90px;
+        margin: auto;
+    }
+    #num{
+        position: absolute;
+        top: 115px;
+        margin: auto;
+
+    }
+    #labelSubject{
+        position: absolute;
+        top: 90px;
+        margin: auto;
+        left: 50%;
+    }
+    #subject{
+        position: absolute;
+        top: 115px;
+        margin: auto;
+        left: 50%;
+    }
+    #contactForm>input{
+        width: 40%;
+        border-radius: 10px;
+        font-size: 16px;
+        height: 35px;
+        text-align: center;
+        font-family: Heebo;
+        box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.9);
+        border: none;
+
+
+    }
+    #send{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: linear-gradient(to bottom, #35A29F 0%, #35A29F 30%, #088194 80%, #088194 100%);
+        color: white;
+        border:none;
+        border-radius: 10px;
+        width: 50%;
+        height: 40px;
+        font-size: 20px;
+        font-family: Heebo;
+
+    }
+
+
+
+
 }
 
 
