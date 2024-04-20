@@ -1,0 +1,63 @@
+@media all and (max-width: 320px ) {
+}
+
+@media all and (min-width: 321px ) and (max-width: 460px) {
+}
+
+@media all and (min-width: 461px ) and (max-width: 768px) {
+}
+
+@media all and (min-width: 769px ) and (max-width: 834px) {
+}
+
+@media all and (min-width: 835px ) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 1025px ) and (max-width: 1440px) {
+    #contactMeSection {
+        width: 100%;
+        position: relative;
+        height: 1500px;
+
+    }
+
+    #galleryHeader {
+
+    }
+}
+
+@media all and  (min-width: 1440px) {
+    #contactMeSection {
+        width: 100%;
+        position: relative;
+        height: 1500px;
+
+    }
+
+    #contactMeHeader {
+        position: absolute;
+        top: 20px;
+        font-size: 50px;
+        color: #35A29F;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+        font-family: Jura;
+
+
+
+    }
+    #contactMeIntro{
+        position: absolute;
+        top: 150px;
+        font-size: 27px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 75%;
+        font-family: Heebo;
+    }
+}
+
+
