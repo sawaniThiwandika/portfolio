@@ -11,4 +11,35 @@ footer{
     height: 300px;
     background-color: black;
 }
+    #logoDiv{
+        width: fit-content;
+        margin: 5px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+    #logoDiv>img{
+        width: 80px;
+        position: absolute;
+
+    }
+    #socialMediaLinksDiv{
+        width: fit-content;
+        height: 100px;
+        position: absolute;
+        left:0;
+        right: 0;
+        top: 50px;
+        margin: auto;
+
+    }
+    #socialMediaLinksDiv>a>img{
+        width: 35px;
+    }
+    #detailsDiv{
+        position: absolute;
+        right: 0;
+        margin: auto;
+    }
 }
