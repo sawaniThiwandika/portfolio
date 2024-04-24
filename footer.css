@@ -3,7 +3,88 @@
 @media all and (min-width: 461px ) and (max-width: 768px){}
 @media all and (min-width: 769px ) and (max-width: 834px){}
 @media all and (min-width: 835px ) and (max-width: 1024px){}
-@media all and (min-width: 1025px ) and (max-width: 1440px){}
+@media all and (min-width: 1025px ) and (max-width: 1440px){
+    footer{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    #logoDiv{
+        width: fit-content;
+        margin: 5px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+    #logoDiv>img{
+        width: 80px;
+        position: absolute;
+
+    }
+    #socialMediaLinksDiv{
+        width: fit-content;
+        height: 100px;
+        position: absolute;
+        left:0;
+        right: 0;
+        top: 50px;
+        margin: auto;
+
+    }
+    #socialMediaLinksDiv>a>img{
+        width: 35px;
+        margin: 5px;
+    }
+    #detailsDiv{
+        position: absolute;
+        top: 10px;
+        right: 0;
+        width: 212px;
+        height: 150px;
+        margin: auto;
+        color: white;
+    }
+    #footer>p{
+        color: white;
+    }
+    #detailsDiv>div{
+        position: absolute;
+        width: 200px;
+        height: 60px;
+
+    }
+    #locationDiv{
+        position: absolute;
+        top: 0;
+        margin: auto;
+    }
+    #emailDiv{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #callDiv{
+        position: absolute;
+      bottom: 0;
+        margin: auto;
+    }
+    #detailsDiv>div>img{
+        position: absolute;
+        width: 25px;
+        left: 0;
+
+    }
+    #detailsDiv>div>p{
+        position: absolute;
+        width:fit-content;
+        left: 35px;
+        font-size: 12px;
+
+    }
+}
 @media all and  (min-width:1440px){
 footer{
     position: relative;
@@ -48,6 +129,7 @@ footer{
         color: white;
     }
     #detailsDiv>div{
+        position: absolute;
         width: 300px;
         height: 300px;
 
@@ -68,7 +150,8 @@ footer{
         margin: auto;
     }
     #detailsDiv>div>img{
+        position: absolute;
         width: 300px;
-        top: 0px;
+
     }
 }
