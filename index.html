@@ -1,5 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+   @keyframes rotateAndHide {
+        0% {
+            transform: rotateY(0deg);
+        }
+        100% {
+            transform: rotateY(360deg);
+        }
+    }
+
+    @keyframes showButton {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .projectDiv:hover {
+        animation: rotateAndHide 1s forwards;
+    }
+
+    .projectDiv img, .projectDiv p {
+        opacity: 1;
+    }
+
+    .projectDiv:hover img {
+        animation: hideImage 0.5s forwards;
+    }
+
+    .projectDiv:hover p {
+        animation: hideText 0.5s forwards;
+    }
+
+    .projectDiv button {
+        position: relative;
+        bottom: -35%;
+        margin: auto;
+        z-index: 99999;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+        opacity: 0;
+    }
+
+    .projectDiv:hover button {
+        animation: showButton 1s forwards;
+    }
+
+    .projectDiv h4 {
+        position: relative;
+        margin: auto;
+        z-index: 99999;
+        font-size: 40px;
+    }
+
+    @keyframes hideImage {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes hideText {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
+</style>
 <head>
     <meta charset="UTF-8">
 
@@ -11,6 +88,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
@@ -25,18 +103,23 @@
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="contactMe.css">
     <link rel="stylesheet" href="footer.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body style="background-color: white">
 <header>
     <img src="images/logo/logo.png" alt="logo">
+
     <nav>
         <ul>
             <a href="">Home</a>
-            <a href="#aboutMe">About Me</a>
-            <a href="#services">Services</a>
-            <a href="#works">Works</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contactMe">Contact Me</a>
+            <a href="#aboutSection">About Me</a>
+            <a href="#serviceSection">Services</a>
+            <a href="#projectSection">Works</a>
+            <a href="#gallerySection">Gallery</a>
+            <a href="#contactMeSection">Contact Me</a>
         </ul>
     </nav>
     <button id="hamBtn"><i class="fa-solid fa-bars" ></i></button>
@@ -93,27 +176,27 @@
 <br>
 <section id="educationSection">
     <h2 id="educationHeader"> EDUCATION</h2>
-    <div id="polegodaMv">
+    <div id="polegodaMv" data-aos="zoom-in" >
         <img src="images/eduacation/polegoda_MV-removebg.png"  class="educationImg">
         <p class="educationPlaces">Wp/Ho Polegoda Maha Vidyalaya</p>
         <p class="timePeriod">(2008-2012)</p>
         <p class="educationDetails">I sat for Scholarship exam in 2012</p>
         <div class="dot"></div>
     </div>
-    <div id="ASM"><img src="images/eduacation/ASM%20logo.png" class="educationImg">
+    <div id="ASM"  data-aos="zoom-in"><img src="images/eduacation/ASM%20logo.png" class="educationImg">
         <P class="educationPlaces">Ananda Shastralaya, Mathugama</P>
         <p class="timePeriod" id="ASMTimePeriod"> (2013-2022)</P>
         <p class="educationDetails"> I sat for GCE O/L exam in 2018 and GCE A/L in 2022</p>
         <div class="dot"></div>
     </div>
-    <div id="Ijse">
-        <img src="images/eduacation/ijse%20logo.png" class="educationImg">
+    <div id="Ijse" data-aos="zoom-in">
+        <img src="images/eduacation/ijse%20logo.png" class="educationImg" >
         <p class="educationPlaces" id="ijseName">Institute of Software Engineering</P>
         <p class="timePeriod" id="ijseTime">   (2023 to present)</p>
         <p class="educationDetails" id="ijseDetails">Currently I am studying GDSE in IJSE</p>
         <div class="dot"></div>
     </div>
-    <div id="Mora"> <img src="images/eduacation/University_of_Moratuwa_logo.png" class="educationImg" >
+    <div id="Mora" data-aos="zoom-in"> <img src="images/eduacation/University_of_Moratuwa_logo.png" class="educationImg"  >
         <p class="educationPlaces">University Of Moratuwa</P>
         <p class="timePeriod" id="MoraTimePeriod">   (2024 to present)</p>
         <p class="educationDetails" id="MoraDetails">I am currently pursuing a Bachelor of Science with Honors degree in Information Technology</p>
@@ -151,7 +234,7 @@
 <section id="serviceSection">
     <h3 id="servicesHeader">SERVICES</h3>
     <div id="webDevelopmentDiv">
-        <h4>Custom Web Development</h4>
+        <h4 style="color:#088194 ; font-size: 24px">Custom Web Development</h4>
         <img src="images/icons/services.jpg" >
         <!--height="200" width="320"-->
         <ul>
@@ -162,7 +245,7 @@
         </ul>
     </div>
     <div id="databaseDesignDiv">
-        <h4>Database Design and Management</h4>
+        <h4 style="color:#088194; font-size: 24px"  >Database Design and Management</h4>
         <img src="images/icons/services.jpg" alt="Services">
         <ul>
             <li>Designing efficient and scalable database structures.</li>
@@ -174,26 +257,26 @@
     <h1 id="worksHeader">WORKS</h1>
     <h3 id="projectsHeader">PROJECTS</h3>
     <div class="image-table">
-        <div class="projectDiv">
+        <div class="projectDiv" >
             <h4> DressAura</h4>
             <img src="images/projects/dressAura.png" >
             <button><a href="https://github.com/sawaniThiwandika/dressaura.git ">View</a></button>
             <p>DressAura is a software that made for managing
                 dress rental and tailoring shop. I have used OOP concepts, JDBC and JavaFX to develop this software</p>
         </div>
-        <div class="projectDiv">
+        <div class="projectDiv" >
             <h4> ChatRoom</h4>
             <img src="images/projects/chatRoom.png" >
             <button><a href="https://github.com/sawaniThiwandika/chat-room.git">View</a> </button>
             <p>I have used OOP concepts,Java sockets,threads, JDBC and JavaFX to develop this chat application</p>
         </div>
-        <div class="projectDiv">
+        <div class="projectDiv" >
             <h4> Connect-4-Game</h4>
             <img src="images/projects/coonect-4-game.png" >
             <button><a href="https://github.com/sawaniThiwandika/connect-4-game.git">View</a> </button>
             <p>I have used OOP concepts and JavaFX to develop this game</p>
         </div>
-        <div class="projectDiv">
+        <div class="projectDiv" >
             <h4> BookWorm</h4>
             <img src="images/projects/bookworm.png" >
             <button><a href="https://github.com/sawaniThiwandika/library-management-system.git">View</a> </button>
@@ -202,7 +285,7 @@
         </div>
     </div>
 
-   <!-- <img src="images/icons/menuBlack.png">-->
+
 </section>
 <section id="assignmentSection">
     <h1 id="worksHeaderAssignment">WORKS</h1>
@@ -334,6 +417,83 @@
     </div>
     <p id="copyRight" >&copy; 2024 sawaniThiwandika. All rights reserved.</p>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!--<script>
+
+    const projectDivs = document.querySelectorAll('.projectDiv');
+
+
+    projectDivs.forEach(projectDiv => {
+
+        projectDiv.addEventListener('mouseenter', () => {
+
+            projectDiv.style.transform = 'rotateY(360deg)';
+
+
+            const img = projectDiv.querySelector('img');
+            img.style.display = 'none';
+
+            const p = projectDiv.querySelector('p');
+            p.style.display = 'none';
+
+
+            const button = projectDiv.querySelector('button');
+            button.style.display='block';
+            button.style.position = 'relative';
+            button.style.bottom = '-35%';
+            button.style.margin = 'auto';
+            button.style.zIndex = '99999';
+            button.style.width='150px';
+            button.style.height='50px';
+            button.style.fontSize='30px';
+            const hedder = projectDiv.querySelector('h4');
+            hedder.style.position = 'relative';
+            hedder.style.bottom = '-10%';
+            hedder.style.margin = 'auto';
+            hedder.style.zIndex = '99999';
+            hedder.style.fontSize='40px';
+
+        });
+
+
+        projectDiv.addEventListener('mouseleave', () => {
+
+            projectDiv.style.transform = 'rotateY(0deg)';
+
+
+            const img = projectDiv.querySelector('img');
+            img.style.display = 'block';
+
+
+            const p = projectDiv.querySelector('p');
+            p.style.display = 'block';
+
+
+            const button = projectDiv.querySelector('button');
+            button.style.display='none'
+            button.style.position = 'static';
+            button.style.bottom = 'auto';
+            button.style.margin = 'auto';
+            button.style.zIndex = 'auto';
+            button.style.width='110px';
+            button.style.height='40px';
+            button.style.fontSize='20px';
+
+            const hedder = projectDiv.querySelector('h4');
+            hedder.style.position = 'static';
+            hedder.style.bottom = 'auto';
+            hedder.style.margin = 'auto';
+            hedder.style.zIndex = 'auto';
+            hedder.style.fontSize='20px';
+
+
+
+        });
+    });
+</script>-->
 
 </body>
 

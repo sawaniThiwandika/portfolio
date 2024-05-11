@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+
+}
+
+#logoImg{
+    position: relative;
+    margin: 10px;
+   width: 100px;
+}
+
+#linksSection>ul>li>a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+
+}
+#closeImg{
+    position: relative;
+    margin: auto;
+    width: 30px;
+    right: 0;
+
+}

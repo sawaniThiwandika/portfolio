@@ -1930,7 +1930,7 @@ top: 0;
     }
 
     header > nav {
-        top: 0;
+        top: 10px;
 
         position: absolute;
         display: inline-block;
@@ -1943,10 +1943,10 @@ top: 0;
 
     header > nav > ul > a {
         font-size: 24px;
-
+        font-weight: 10;
         color: white;
         text-decoration: none;
-        font-size: 30px;
+
         font-family: Heebo;
         margin: 10px;
 
