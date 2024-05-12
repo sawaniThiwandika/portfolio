@@ -191,7 +191,7 @@ body{overflow-x: hidden}
         /* left: 155px;*/
         left:0;
         right: 0;
-        opacity: 0.2;
+        /*opacity: 0.2;*/
         top: 242px;
         margin: auto;
     }
@@ -200,11 +200,12 @@ body{overflow-x: hidden}
 
         position: absolute;
         font-size: 20px;
-        left:30px;
+        left:0;
         right: 0;
-        opacity: 0.2;
+        /*opacity: 0.2;*/
         top: 278px;
         margin: auto;
+        text-align: center;
 
 
     }
@@ -320,6 +321,16 @@ body{overflow-x: hidden}
         border: solid #35A29F;
         text-align: center;
         border-radius: 5px;
+
+    }
+    .shine{
+        background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
+        background-position: 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: move 10s infinite linear;
+        animation-fill-mode: forwards;
 
     }
 }
@@ -525,7 +536,7 @@ body{overflow-x: hidden}
         /* left: 155px;*/
         left:0;
         right: 0;
-        opacity: 0.2;
+        /*opacity: 0.2;*/
         top: 242px;
         margin: auto;
     }
@@ -536,7 +547,7 @@ body{overflow-x: hidden}
         font-size: 24px;
         left:0;
         right: 0;
-        opacity: 0.2;
+        /*opacity: 0.2;*/
         top: 278px;
         margin: auto;
 
@@ -655,6 +666,16 @@ top: 0;
         border: solid #35A29F;
         text-align: center;
         border-radius: 5px;
+
+    }
+    .shine{
+        background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
+        background-position: 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: move 10s infinite linear;
+        animation-fill-mode: forwards;
 
     }
 }
@@ -847,11 +868,11 @@ top: 0;
     #motto1 {
 
         position: absolute;
-        font-size: 24px;
+        font-size: 30px;
         /* left: 155px;*/
         left:0;
         right: 0;
-        opacity: 0.2;
+    /*    opacity: 0.2;*/
         top: 242px;
         margin: auto;
     }
@@ -859,10 +880,10 @@ top: 0;
     #motto2 {
 
         position: absolute;
-        font-size: 24px;
+        font-size: 30px;
         left:0;
         right: 0;
-        opacity: 0.2;
+       /* opacity: 0.2;*/
         top: 278px;
         margin: auto;
 
@@ -978,6 +999,16 @@ top: 0;
         border: solid #35A29F;
         text-align: center;
         border-radius: 5px;
+
+    }
+    .shine{
+        background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
+        background-position: 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: move 10s infinite linear;
+        animation-fill-mode: forwards;
 
     }
 }
@@ -1170,7 +1201,7 @@ top: 0;
         font-size: 24px;
         left: 155px;
         left: 20%;
-        opacity: 0.2;
+      /*  opacity: 0.2;*/
         top: 242px;
         margin: auto;
     }
@@ -1180,7 +1211,7 @@ top: 0;
         position: absolute;
         font-size: 24px;
         left: 0;
-        opacity: 0.2;
+        /*opacity: 0.2;*/
         top: 278px;
         margin: auto;
 
@@ -1284,6 +1315,16 @@ top: 0;
         border: solid #35A29F;
         text-align: center;
         border-radius: 5px;
+
+    }
+    .shine{
+        background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
+        background-position: 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: move 10s infinite linear;
+        animation-fill-mode: forwards;
 
     }
 }
@@ -1474,7 +1515,7 @@ top: 0;
         /* left: 155px;*/
         left: 20%;
         top: 438px;
-        opacity: 0.2;
+     /*   opacity: 0.2;*/
         margin: auto;
     }
 
@@ -1484,7 +1525,7 @@ top: 0;
         font-size: 33px;
         font-family: 'Dosis', sans-serif;
         left: 0;
-        opacity: 0.2;
+       /* opacity: 0.2;*/
         top: 500px;
         margin: auto;
     }
@@ -1577,6 +1618,16 @@ top: 0;
         border: solid #35A29F;
         text-align: center;
         border-radius: 10px;
+
+    }
+    .shine{
+        background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
+        background-position: 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: move 5s infinite linear;
+        animation-fill-mode: forwards;
 
     }
 }
@@ -1878,6 +1929,16 @@ top: 0;
         border-radius: 10px;
 
     }
+    .shine{
+        background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
+        background-position: 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: move 5s infinite linear;
+        animation-fill-mode: forwards;
+
+    }
 }
 @media all and  (min-width: 1440px) {
 
@@ -2053,7 +2114,7 @@ top: 0;
         margin: auto;
     }
 
-    #motto1 {
+    /*#motto1 {
         position: absolute;
         font-size: 50px;
         left: 0;
@@ -2061,7 +2122,7 @@ top: 0;
         margin: auto;
         opacity: 0.2;
         font-family: 'Dosis', sans-serif;
-    }
+    }*/
     #fromSL {
         position: absolute;
         font-size: 40px;
@@ -2079,8 +2140,9 @@ top: 0;
         left: 23%;
         top: 438px;
         font-family: 'Dosis', sans-serif;
-        opacity: 0.2;
+        opacity: 0.9;
         margin: auto;
+
     }
 
     #motto2 {
@@ -2091,8 +2153,9 @@ top: 0;
         top: 500px;
         font-family: 'Dosis', sans-serif;
         font-weight: 20;
-        opacity: 0.2;
+       /* opacity: 0.2;*/
         margin: auto;
+
     }
 
     #homeSection > #homeContactDiv > a > img {
@@ -2186,10 +2249,28 @@ top: 0;
         border-radius: 10px;
 
     }
+    .shine{
+        background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
+        background-position: 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: move 5s infinite linear;
+        animation-fill-mode: forwards;
+
+    }
 }
 
 
+@keyframes move {
+    0%{
+        background-position: 0;
+    }
+    50%{
+        background-position: 300px;
+    }
+    100%{
+        background-position: 800px;
+    }
 
-
-
-
+}
