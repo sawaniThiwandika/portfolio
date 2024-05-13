@@ -187,10 +187,11 @@ body{overflow-x: hidden}
     #motto1 {
 
         position: absolute;
-        font-size: 20px;
+        font-size: 18px;
         /* left: 155px;*/
         left:0;
         right: 0;
+        text-align: center;
         /*opacity: 0.2;*/
         top: 242px;
         margin: auto;
@@ -532,11 +533,12 @@ body{overflow-x: hidden}
     #motto1 {
 
         position: absolute;
-        font-size: 24px;
-        /* left: 155px;*/
+        font-size: 20px;
+         /*left: 155px;*/
         left:0;
         right: 0;
-        /*opacity: 0.2;*/
+        text-align: center;
+     /*   opacity: 0.2;*/
         top: 242px;
         margin: auto;
     }
@@ -872,6 +874,7 @@ top: 0;
         /* left: 155px;*/
         left:0;
         right: 0;
+        text-align: center;
     /*    opacity: 0.2;*/
         top: 242px;
         margin: auto;
@@ -1119,9 +1122,9 @@ top: 0;
         position: absolute;
         width: 60%;
         height: 805px;
-        left: 5%;
+        left: 10%;
         margin: auto;
-        top: 50px;
+        top: 60px;
 
 
     }
@@ -1160,7 +1163,7 @@ top: 0;
 
     #homeSection > #coverImgDiv > img {
         position: absolute;
-        top: 100px;
+        top: 75px;
         margin: auto;
         width: 232px;
         height: 435px;
@@ -1198,10 +1201,12 @@ top: 0;
     #motto1 {
 
         position: absolute;
-        font-size: 24px;
-        left: 155px;
-        left: 20%;
+        font-size: 26px;
+     /*   left: 155px;
+        left: 20%;*/
       /*  opacity: 0.2;*/
+        left: 0;
+        text-align: center;
         top: 242px;
         margin: auto;
     }
@@ -1513,7 +1518,9 @@ top: 0;
         font-family: 'Dosis', sans-serif;
         font-size: 33px;
         /* left: 155px;*/
-        left: 20%;
+        /*left: 20%;*/
+        left: 20px;
+        text-align: center;
         top: 438px;
      /*   opacity: 0.2;*/
         margin: auto;
@@ -1822,10 +1829,12 @@ top: 0;
         position: absolute;
         font-size: 35px;
         /* left: 155px;*/
-        left: 23%;
+      /*  left: 23%;*/
+        left: 50px;
         top: 438px;
         font-family: 'Dosis', sans-serif;
         margin: auto;
+        text-align: center;
     }
 
     #motto2 {
@@ -2103,6 +2112,7 @@ top: 0;
         left: 35%;
         top: 80px;
         margin: auto;
+
     }
 
     #namePIntro {
@@ -2136,12 +2146,17 @@ top: 0;
 
         position: absolute;
         font-size: 50px;
-        left: 155px;
-        left: 23%;
+      /* left: 155px;*/
+        left :50px;
+      /* left: 23%;*/
         top: 438px;
+        width: 100px;
         font-family: 'Dosis', sans-serif;
         opacity: 0.9;
         margin: auto;
+        text-align: center;
+
+
 
     }
 
@@ -2249,8 +2264,8 @@ top: 0;
         border-radius: 10px;
 
     }
-    .shine{
-        background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
+  .shine{
+        background: linear-gradient(to right,#4d4d4d 0,white 3%, #4d4d4d 5%);
         background-position: 0;
         background-clip: text;
         -webkit-background-clip: text;
@@ -2260,6 +2275,7 @@ top: 0;
 
     }
 }
+
 
 
 @keyframes move {
