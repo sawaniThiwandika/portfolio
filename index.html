@@ -76,6 +76,14 @@
         }
     }
 
+
+   .contactHyperLinks:hover {
+       -ms-transform: scale(1.5); /* IE 9 */
+       -webkit-transform: scale(1.5); /* Safari 3-8 */
+       transform: scale(1.5);
+   }
+
+
 </style>
 <head>
     <meta charset="UTF-8">
@@ -123,15 +131,25 @@
         </ul>
     </nav>
     <button id="hamBtn"><i class="fa-solid fa-bars" ></i></button>
+    <div id="sectionLinksHamButton">
+       <ul>
+           <li> <a href="">Home</a></li>
+           <li>  <a href="#aboutSection">About Me</a></li>
+           <li>   <a href="#serviceSection">Services</a></li>
+           <li>   <a href="#projectSection">Works</a></li>
+           <li>  <a href="#gallerySection">Gallery</a></li>
+           <li>  <a href="#contactMeSection">Contact Me</a></li>
+       </ul>
+    </div>
 </header>
 <section id="homeSection">
     <div id="introDiv">
         <p id="hellop" >Hello,</p>
 
         <P  id="namePIntro"> I'm Sawani Thiwandika,<br>
-            a Full-Stack Developer</P>
-        <p id="fromSL">from Sri Lanka...</p>
-
+            a Full-Stack Developer<br>
+            from Sri Lanka...</P>
+        <p id="fromSL"></p>
         <p id="motto1" style="color: white" class="shine">
             Connecting the dots<br>
             in the invisible tapestry of brilliance;</p>
@@ -143,13 +161,11 @@
      
     </div>
     <div id="homeContactDiv">
-        <a href="https://github.com/sawaniThiwandika"><img src="images/icons/icons8-github-48%20(3).png" ></a>
-        <a href="linkedin.com/in/sawani-thiwandika-131332287"><img src="images/icons/icons8-linkedin-48%20(1).png" ></a>
-        <a href=""><img src="images/icons/icons8-whatsapp-48.png "></a>
-        <a href="https://fb.com/sawani thiwandika"><img src="images/icons/icons8-facebook-48%20(2).png" ></a>
-        <a href="https://instagram.com/thiwandika_w.h.s"><img src="images/icons/icons8-instagram-48.png " ></a>
-
-
+        <a href="https://github.com/sawaniThiwandika" class="contactHyperLinks"><img src="images/icons/icons8-github-48%20(3).png" class="contactHyperLinks"></a>
+        <a href="linkedin.com/in/sawani-thiwandika-131332287" ><img src="images/icons/icons8-linkedin-48%20(1).png" class="contactHyperLinks"></a>
+        <a href=""><img src="images/icons/icons8-whatsapp-48.png " class="contactHyperLinks"></a>
+        <a href="https://fb.com/sawani thiwandika" ><img src="images/icons/icons8-facebook-48%20(2).png" class="contactHyperLinks"></a>
+        <a href="https://instagram.com/thiwandika_w.h.s" ><img src="images/icons/icons8-instagram-48.png " class="contactHyperLinks"></a>
     </div>
 
 
@@ -158,7 +174,7 @@
 
 <section id="aboutSection" style="background-color: white">
     <div id="aboutCoverImgDiv">
-     <img src="images/cover/aboutMe.jpg">
+     <img src="images/cover/aboutMe.jpg" class="coverImageAboutMe">
 
     </div>
 
@@ -170,9 +186,9 @@
             With a strong foundation and a thirst for challenges,
             I am poised to make a mark in the field, transforming
             ideas into seamless digital solutions.</p>
-        <button id="downloadCV"> <img src="images/icons/downloading-removebg-preview.png " height="50" width="50"> Download CV</button> <br>
+        <button id="downloadCV"> <img src="images/icons/downloading-removebg-preview.png "> Download CV</button> <br>
     </div>
-</section>
+</section> <!--height="50" width="50"-->
 
 <br>
 <section id="educationSection">
@@ -422,80 +438,23 @@
 <script>
     AOS.init();
 </script>
-
-<!--<script>
-
-    const projectDivs = document.querySelectorAll('.projectDiv');
-
-
-    projectDivs.forEach(projectDiv => {
-
-        projectDiv.addEventListener('mouseenter', () => {
-
-            projectDiv.style.transform = 'rotateY(360deg)';
-
-
-            const img = projectDiv.querySelector('img');
-            img.style.display = 'none';
-
-            const p = projectDiv.querySelector('p');
-            p.style.display = 'none';
-
-
-            const button = projectDiv.querySelector('button');
-            button.style.display='block';
-            button.style.position = 'relative';
-            button.style.bottom = '-35%';
-            button.style.margin = 'auto';
-            button.style.zIndex = '99999';
-            button.style.width='150px';
-            button.style.height='50px';
-            button.style.fontSize='30px';
-            const hedder = projectDiv.querySelector('h4');
-            hedder.style.position = 'relative';
-            hedder.style.bottom = '-10%';
-            hedder.style.margin = 'auto';
-            hedder.style.zIndex = '99999';
-            hedder.style.fontSize='40px';
-
-        });
-
-
-        projectDiv.addEventListener('mouseleave', () => {
-
-            projectDiv.style.transform = 'rotateY(0deg)';
-
-
-            const img = projectDiv.querySelector('img');
-            img.style.display = 'block';
-
-
-            const p = projectDiv.querySelector('p');
-            p.style.display = 'block';
-
-
-            const button = projectDiv.querySelector('button');
-            button.style.display='none'
-            button.style.position = 'static';
-            button.style.bottom = 'auto';
-            button.style.margin = 'auto';
-            button.style.zIndex = 'auto';
-            button.style.width='110px';
-            button.style.height='40px';
-            button.style.fontSize='20px';
-
-            const hedder = projectDiv.querySelector('h4');
-            hedder.style.position = 'static';
-            hedder.style.bottom = 'auto';
-            hedder.style.margin = 'auto';
-            hedder.style.zIndex = 'auto';
-            hedder.style.fontSize='20px';
-
-
-
+<script>
+    document.getElementById('hamBtn').addEventListener('click', function() {
+        var sectionLinksHamButton = document.getElementById('sectionLinksHamButton');
+        if (sectionLinksHamButton.style.display === 'block') {
+            sectionLinksHamButton.style.display = 'none';
+        } else {
+            sectionLinksHamButton.style.display = 'block';
+        }
+    });
+    var links = document.querySelectorAll('#sectionLinksHamButton ul li a');
+    links.forEach(function(link) {
+        link.addEventListener('click', function() {
+            document.getElementById('sectionLinksHamButton').style.display = 'none';
         });
     });
-</script>-->
+</script>
+
 
 </body>
 

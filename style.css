@@ -56,6 +56,33 @@ body{overflow-x: hidden}
         right: 10px;
         width: fit-content;
     }
+    #sectionLinksHamButton{
+
+        display: none;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        height: 450px;
+        background-color: rgba(0, 0, 0, 0.8);
+
+    }
+    #sectionLinksHamButton>ul>li>a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px;
+
+    }
+    #sectionLinksHamButton>ul{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: fit-content;
+        margin: auto;
+    }
+
+    #sectionLinksHamButton>ul>li{
+        margin: 25px;
+    }
 
     header > nav > ul > a {
         text-decoration: none;
@@ -165,6 +192,7 @@ body{overflow-x: hidden}
     #namePIntro {
         position: absolute;
         font-size: 27px;
+        text-align: center;
         /*  left: 221px;*/
         left:0;
         right: 0;
@@ -187,7 +215,7 @@ body{overflow-x: hidden}
     #motto1 {
 
         position: absolute;
-        font-size: 18px;
+        font-size: 20px;
         /* left: 155px;*/
         left:0;
         right: 0;
@@ -324,6 +352,16 @@ body{overflow-x: hidden}
         border-radius: 5px;
 
     }
+    #downloadCV>img{
+        position: absolute;
+        height: 45px;
+        aspect-ratio: 1/1;
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        margin: auto;
+    }
+
     .shine{
         background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
         background-position: 0;
@@ -401,6 +439,32 @@ body{overflow-x: hidden}
         bottom: 0;
         right: 10px;
         width: fit-content;
+    }
+    #sectionLinksHamButton{
+        display: none;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        height: 450px;
+        background-color: rgba(0, 0, 0, 0.8);
+
+    }
+    #sectionLinksHamButton>ul>li>a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px;
+
+    }
+    #sectionLinksHamButton>ul{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: fit-content;
+        margin: auto;
+    }
+
+    #sectionLinksHamButton>ul>li{
+        margin: 25px;
     }
 
     header > nav > ul > a {
@@ -511,6 +575,7 @@ body{overflow-x: hidden}
     #namePIntro {
         position: absolute;
         font-size: 27px;
+        text-align: center;
         /*  left: 221px;*/
         left:0;
         right: 0;
@@ -670,6 +735,15 @@ top: 0;
         border-radius: 5px;
 
     }
+    #downloadCV>img{
+        position: absolute;
+        height: 45px;
+        aspect-ratio: 1/1;
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        margin: auto;
+    }
     .shine{
         background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
         background-position: 0;
@@ -737,6 +811,32 @@ top: 0;
         bottom: 0;
         right: 10px;
         width: fit-content;
+    }
+    #sectionLinksHamButton{
+        display: none;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        height: 450px;
+        background-color: rgba(0, 0, 0, 0.8);
+
+    }
+    #sectionLinksHamButton>ul>li>a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px;
+
+    }
+    #sectionLinksHamButton>ul{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: fit-content;
+        margin: auto;
+    }
+
+    #sectionLinksHamButton>ul>li{
+        margin: 25px;
     }
 
     header > nav > ul > a {
@@ -849,6 +949,7 @@ top: 0;
         position: absolute;
         font-size: 27px;
         /*  left: 221px;*/
+        text-align: center;
         left:0;
         right: 0;
         top: 100px;
@@ -1004,6 +1105,15 @@ top: 0;
         border-radius: 5px;
 
     }
+    #downloadCV>img{
+        position: absolute;
+        height: 45px;
+        aspect-ratio: 1/1;
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        margin: auto;
+    }
     .shine{
         background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
         background-position: 0;
@@ -1079,6 +1189,33 @@ top: 0;
         right: 10px;
         width: fit-content;
     }
+    #sectionLinksHamButton{
+        display: none;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        height: 450px;
+        background-color: rgba(0, 0, 0, 0.8);
+
+    }
+    #sectionLinksHamButton>ul>li>a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px;
+
+    }
+    #sectionLinksHamButton>ul{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: fit-content;
+        margin: auto;
+    }
+
+    #sectionLinksHamButton>ul>li{
+        margin: 25px;
+    }
+
 
     header > nav > ul > a {
         text-decoration: none;
@@ -1184,6 +1321,7 @@ top: 0;
         font-size: 27px;
         left: 221px;
         left: 10%;
+        text-align: center;
         top: 100px;
         margin: auto;
     }
@@ -1322,6 +1460,15 @@ top: 0;
         border-radius: 5px;
 
     }
+    #downloadCV>img{
+        position: absolute;
+        height: 45px;
+        aspect-ratio: 1/1;
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        margin: auto;
+    }
     .shine{
         background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
         background-position: 0;
@@ -1331,6 +1478,15 @@ top: 0;
         animation: move 10s infinite linear;
         animation-fill-mode: forwards;
 
+    }
+    .coverImageAboutMe {
+        transition: transform 1s ease-in-out; /* Ensure transition is applied */
+    }
+
+    .coverImageAboutMe:hover {
+       -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 }
 @media all and (min-width: 835px ) and (max-width: 1024px){
@@ -1394,7 +1550,9 @@ top: 0;
          top: -100px;*/
         display: none;
     }
-
+    #sectionLinksHamButton{
+        display: none;
+    }
     header > nav > ul > a {
         text-decoration: none;
         font-size: 20px;
@@ -1489,6 +1647,7 @@ top: 0;
         position: absolute;
         font-size: 35px;
         /*  left: 221px;*/
+        text-align: center;
         left: 20%;
         top: 208px;
         margin: auto;
@@ -1627,6 +1786,15 @@ top: 0;
         border-radius: 10px;
 
     }
+    #downloadCV>img{
+        position: absolute;
+        height: 45px;
+        aspect-ratio: 1/1;
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        margin: auto;
+    }
     .shine{
         background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
         background-position: 0;
@@ -1636,6 +1804,15 @@ top: 0;
         animation: move 5s infinite linear;
         animation-fill-mode: forwards;
 
+    }
+    .coverImageAboutMe {
+        transition: transform 1s ease-in-out; /* Ensure transition is applied */
+    }
+
+    .coverImageAboutMe:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2);
     }
 }
 @media all and (min-width: 1025px ) and (max-width: 1440px){
@@ -1713,7 +1890,9 @@ top: 0;
         top:-100px;*/
         display: none;
     }
-
+    #sectionLinksHamButton{
+        display: none;
+    }
     header > nav > ul > a {
 
         color: white;
@@ -1803,6 +1982,7 @@ top: 0;
         font-size: 35px;
         /*  left: 221px;*/
         left: 20%;
+        text-align: center;
         top: 208px;
         margin: auto;
     }
@@ -1938,6 +2118,15 @@ top: 0;
         border-radius: 10px;
 
     }
+    #downloadCV>img{
+        position: absolute;
+        height: 45px;
+        aspect-ratio: 1/1;
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        margin: auto;
+    }
     .shine{
         background: linear-gradient(to right,#4d4d4d 0,white 10%, #4d4d4d 20%);
         background-position: 0;
@@ -1947,6 +2136,15 @@ top: 0;
         animation: move 5s infinite linear;
         animation-fill-mode: forwards;
 
+    }
+    .coverImageAboutMe {
+        transition: transform 1s ease-in-out; /* Ensure transition is applied */
+    }
+
+    .coverImageAboutMe:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2);
     }
 }
 @media all and  (min-width: 1440px) {
@@ -2040,6 +2238,10 @@ top: 0;
         top:-100px;
         display: none;
     }
+    #sectionLinksHamButton{
+  display: none;
+    }
+
 
 
     #homeSection {
@@ -2122,6 +2324,7 @@ top: 0;
         left: 25%;
         top: 208px;
         margin: auto;
+        text-align: center;
     }
 
     /*#motto1 {
@@ -2260,9 +2463,22 @@ top: 0;
         margin: auto;
         background-color: white;
         border: solid #35A29F;
-        text-align: center;
+     /*   text-align: center;*/
         border-radius: 10px;
+       /* text-align: match-parent;*/
+        text-align: right; /* Align text to the right */
+        padding-right: 25px;
 
+
+    }
+    #downloadCV>img{
+        position: absolute;
+        height: 45px;
+        aspect-ratio: 1/1;
+        top: 0;
+        bottom: 0;
+       left: 30px;
+        margin: auto;
     }
   .shine{
         background: linear-gradient(to right,#4d4d4d 0,white 3%, #4d4d4d 5%);
@@ -2273,6 +2489,15 @@ top: 0;
         animation: move 5s infinite linear;
         animation-fill-mode: forwards;
 
+    }
+    .coverImageAboutMe {
+        transition: transform 1s ease-in-out; /* Ensure transition is applied */
+    }
+
+    .coverImageAboutMe:hover {
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2);
     }
 }
 
@@ -2289,4 +2514,7 @@ top: 0;
         background-position: 800px;
     }
 
+}
+nav>ul>a:hover{
+    color: #0DB3AE;
 }
