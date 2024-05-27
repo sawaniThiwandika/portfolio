@@ -32,7 +32,29 @@
         font-family: Heebo;
         font-weight: 10;
     }
-
+    #nextAssignmentBtn{
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: none;
+        border: solid white;
+        border-width: thin;
+        width: 50px;
+        aspect-ratio: 1/1;
+        border-radius: 50px;
+    }
+    #nextAssignmentBtn>img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        rotate: 90deg;
+        width: 30px;
+    }
     .assignment-table {
         position: absolute;
         display: grid;
@@ -145,7 +167,29 @@
         font-family: Heebo;
         font-weight: 10;
     }
-
+    #nextAssignmentBtn{
+        position: absolute;
+        bottom: 35px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: none;
+        border: solid white;
+        border-width: thin;
+        width: 50px;
+        aspect-ratio: 1/1;
+        border-radius: 50px;
+    }
+    #nextAssignmentBtn>img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        rotate: 90deg;
+        width: 30px;
+    }
     .assignment-table {
         position: absolute;
         display: grid;
@@ -250,7 +294,31 @@
         margin: auto;
         font-family: Heebo;
         font-weight: 10;
+        color: white;
     }
+#nextAssignmentBtn{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: none;
+    border: solid white;
+    border-width: thin;
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+}
+#nextAssignmentBtn>img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    rotate: 90deg;
+    width: 30px;
+}
 
     .assignment-table{
         position: absolute;
@@ -357,7 +425,29 @@
         font-family: Heebo;
         font-weight: 10;
     }
-
+    #nextAssignmentBtn{
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: none;
+        border: solid white;
+        border-width: thin;
+        width: 50px;
+        aspect-ratio: 1/1;
+        border-radius: 50px;
+    }
+    #nextAssignmentBtn>img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        rotate: 90deg;
+        width: 30px;
+    }
     .assignment-table{
         position: absolute;
         display: grid;
@@ -500,7 +590,29 @@
         font-family: Heebo;
         font-weight: 10;
     }
-
+    #nextAssignmentBtn{
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: none;
+        border: solid white;
+        border-width: thin;
+        width: 50px;
+        aspect-ratio: 1/1;
+        border-radius: 50px;
+    }
+    #nextAssignmentBtn>img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        rotate: 90deg;
+        width: 30px;
+    }
     .assignment-table {
         position: absolute;
         display: grid;
@@ -605,7 +717,29 @@
         font-family: Heebo;
         font-weight: 10;
     }
-
+    #nextAssignmentBtn{
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: none;
+        border: solid white;
+        border-width: thin;
+        width: 50px;
+        aspect-ratio: 1/1;
+        border-radius: 50px;
+    }
+    #nextAssignmentBtn>img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        rotate: 90deg;
+        width: 30px;
+    }
     .assignment-table {
         position: absolute;
         display: grid;
@@ -703,14 +837,37 @@
         position: absolute;
         color: white;
         width: fit-content;
+
         left: 0;
         top: 105px;
         right: 0;
         margin: auto;
         font-family: Heebo;
-        font-weight: 10;
+        font-weight: lighter;
     }
-
+    #nextAssignmentBtn{
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: none;
+        border: solid #35A29F;
+        border-width: thin;
+        width: 50px;
+        aspect-ratio: 1/1;
+        border-radius: 50px;
+    }
+    #nextAssignmentBtn>img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        rotate: 90deg;
+        width: 30px;
+    }
     .assignment-table {
         position: absolute;
         display: grid;

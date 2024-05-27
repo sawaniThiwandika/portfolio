@@ -821,7 +821,7 @@ top: 0;
         position: absolute;
         top: 0;
         bottom: 0;
-        right: 15px;
+        right: 20px;
         width: fit-content;
         background: none;
         border: none;
@@ -829,7 +829,7 @@ top: 0;
     #hamBtn>img{
 
 
-        width: 40px;
+        width: 30px;
     }
     #sectionLinksHamButton{
         display: none;
@@ -1215,7 +1215,7 @@ top: 0;
     #hamBtn>img{
 
 
-        width: 40px;
+        width: 30px;
     }
     #sectionLinksHamButton{
         display: none;
