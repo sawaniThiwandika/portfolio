@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    section{
+      position: relative;
+      height: 2100px;
+    }
+    #center{
+      width: 300px;
+      aspect-ratio: 1/1;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top:0;
+      bottom: 0;
+      margin:  auto;
+
+      border-radius: 300px;
+      box-shadow: 0 0 0 20px #ff0000,0 0 0 40px #00ff00;
+      box-sizing: border-box;
+
+    }
+    .move{
+      width: 310px;
+      aspect-ratio: 1/1;
+      position: absolute;
+      margin: auto;
+      border-radius: 310px;
+        color: white;
+    }
+    #move1{
+      top: 210px;
+      left: 0;
+      right: 0;
+      background-color: deepskyblue;
+    }
+    #move2{
+      top: 1000px;
+      left: 0;
+      right: 0;
+      background-color: plum;
+    }
+    #move3{
+      top: 1580px;
+      left: 0;
+      right: 0;
+      background-color: orange;
+    }
+    section>div>h3{
+        width: fit-content;
+        height: fit-content;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+
+    }
+
+  </style>
+</head>
+<body>
+<section>
+
+  <div class="move" id="move1"><h3>Hello</h3></div>
+    <div class="move" id="move2"><h3>Welcome to</h3></div>
+    <div class="move" id="move3"><h3>Software Engineering</h3></div>
+
+  <div id="center"></div>
+</section>
+</body>
+</html>
