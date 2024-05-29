@@ -507,7 +507,7 @@ body{overflow-x: hidden}
 
     #homeSection {
 
-        height: 600px;
+        height: 700px;
         width: 100vw;
         position: relative;
         background-color: black;
@@ -536,7 +536,7 @@ body{overflow-x: hidden}
         left: 2%;
         margin: auto;
 
-        top: 10px;
+        top: 20px;
 
     }
 
@@ -581,7 +581,7 @@ body{overflow-x: hidden}
         /*left: 315px;*/
         left: 0;
         right: 0;
-        top: 50px;
+        top: 80px;
         margin: auto;
     }
     #namePIntro {
@@ -591,7 +591,7 @@ body{overflow-x: hidden}
         /*  left: 221px;*/
         left:0;
         right: 0;
-        top: 100px;
+        top: 150px;
         margin: auto;
     }
 
@@ -616,7 +616,7 @@ body{overflow-x: hidden}
         right: 0;
         text-align: center;
      /*   opacity: 0.2;*/
-        top: 242px;
+        top: 265px;
         margin: auto;
     }
 
