@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../normalize.css">
+    <link href=" assets/https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+        section {
+            display: flex;
+            animation-name: my-animation;
+            animation-duration: 5s;
+            width: 200vw;
+            position: absolute;
+            animation-direction: revert;
+            animation-iteration-count: infinite;
+        }
+
+        main {
+
+            width: 50vw;
+            height: 50vh;
+            overflow: hidden;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            border: solid red;
+
+
+        }
+
+        main > section > div {
+            width: 50vw;
+            height: 50vh;
+            background-color: blue;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #div1 {
+            background-image: url("../assignmentPics/slide1.jpeg");
+        }
+
+        #div2 {
+            background-image: url("../assignmentPics/slide2.jpeg");
+        }
+
+        #div3 {
+            background-image: url("../assignmentPics/slide3.jpeg");
+        }
+
+        #div4 {
+            background-image: url("../assignmentPics/slide4.jpeg");
+        }
+
+        @keyframes my-animation {
+            0%, 20% {
+                transition-delay: 5s;
+                transform: translateX(0%);
+
+
+            }
+            25%, 45% {
+                transform: translateX(-25%);
+            }
+            50%, 70% {
+                transform: translateX(-50%);
+            }
+            95% {
+                transform: translateX(-75%);
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+    </section>
+
+</main>
+<script src="assets/https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

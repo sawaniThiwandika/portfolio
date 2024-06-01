@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../assets/fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+    <style>
+        section {
+            height: fit-content;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+
+        }
+
+        section > div {
+            position: relative;
+            width: 300px;
+            height: 80px;
+            background-color: purple;
+            box-shadow: 5px 5px 10px plum;
+            margin-bottom: 20px;
+            cursor: pointer;
+            margin-left: -200px;
+            transition-duration: 1s;
+            color: white;
+
+
+        }
+
+        section > div:hover {
+
+            margin-left: 0px;
+
+
+        }
+
+        section > div > h3 {
+            height: fit-content;
+            top: 0;
+            bottom: 0;
+            left: 20px;
+            position: absolute;
+            margin: auto;
+        }
+
+        section > div > div {
+            height: fit-content;
+            top: 0;
+            bottom: 0;
+            right: 20px;
+            position: absolute;
+            margin: auto;
+        }
+
+        i {
+            color: #eeeeee;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div id="div1"><h3>Topic 1</h3>
+        <div><i class="fa-regular fa-star"></i></div>
+    </div>
+    <div id="div2"><h3>Topic 2</h3>
+        <div><i class="fa-solid fa-baby"></i></div>
+    </div>
+    <div id="div3"><h3>Topic 3</h3>
+        <div><i class="fa-sharp fa-solid fa-heart"></i></div>
+    </div>
+    <div id="div4"><h3>Topic 4</h3>
+        <div><i class="fa-sharp fa-solid fa-headset"></i></div>
+    </div>
+    <div id="div5"><h3>Topic 5</h3>
+        <div><i class="fa-regular fa-star"></i></div>
+    </div>
+
+</section>
+</body>
+</html>

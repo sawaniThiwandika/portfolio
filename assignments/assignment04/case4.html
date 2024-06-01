@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../../normalize.css">
+  <style>
+
+    div{
+      aspect-ratio: 1/1;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+
+      border: solid red;
+      animation-name: my-animation;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes my-animation {
+      from{
+
+        width: 100px;
+        border-radius: 100px;
+        border: solid 10px red;
+      }
+      to{
+        width: 500px;
+        border-radius: 500px;
+        border: solid 0 white;
+      }
+    }
+  </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

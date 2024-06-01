@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-color:  #232C37;
+        }
+        section{
+            top: 250px;
+            position: relative;
+            height: 100px;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 1vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-top: solid white;
+            border-bottom:solid white;
+            align-content: center;
+
+
+        }
+        .container {
+            width: 15vw;
+            aspect-ratio: 1/0.3;
+            border: solid purple;
+            align-content: center;
+            font-size: 30px;
+            border-radius: 10px;
+
+        }
+        #div1{
+            position: absolute;
+            top: 200px;
+            left: 10px;
+            margin: auto;
+        }
+        #div6{
+            top:425px ;
+            width: 15vw;
+            aspect-ratio: 1/0.3;
+            position: absolute;
+            margin: auto;
+            right: 10px;
+
+        }
+        #startBtn{
+            position: absolute;
+            top: 550px;
+            margin: auto;
+            left: 40%;
+            width: 100px;
+            height: 50px;
+            color: blue;
+        }
+        #endBtn{
+            position: absolute;
+            top: 550px;
+            margin: auto;
+            left: 50%;
+            width: 100px;
+            height: 50px;
+            color: red;
+        }
+        h1{
+            top: 50px;
+            position: relative;
+            width: fit-content;
+            color: white;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>Java Script Queue</h1>
+<div class="container" id="div1"></div>
+<section>
+    <div></div>
+
+    <div class="container" id="2"></div>
+    <div class="container" id="3"></div>
+    <div class="container" id="4"></div>
+    <div class="container" id="5"></div>
+    <div></div>
+
+</section>
+<div class="container" id="div6"></div>
+<button id="startBtn">Start</button>
+<button id="endBtn">End</button>
+</body>
+<script src="../../assets/lib/jquery-3.7.1.min.js"></script>
+<script>
+
+    let colors=["red","yellow","blue","green","orange","purple"];
+    let myInterval=null;
+    function loadColoursToBlocks(){
+
+
+        colors.map((color,index)=>{
+            var css={
+                background:color
+            }
+            $(".container").eq(index).css(css);
+
+        });
+    }
+
+    function timerToBlocks(){
+        loadColoursToBlocks();
+        let color=colors[colors.length-1];
+        colors.pop();
+        colors.unshift(color);
+
+
+    }
+    $('#startBtn').on('click',()=>{
+        myInterval=setInterval(timerToBlocks,1000);
+    });
+    $('#endBtn').on('click',()=>{
+        clearInterval(myInterval);
+    });
+
+</script>
+</html>

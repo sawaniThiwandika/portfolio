@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    @media all and (max-width: 320px ){
+      .container {
+
+        width: 90%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        position: relative;
+        top: 100px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+        gap: 50px;
+
+        margin: auto;
+      }
+    }
+    @media all and (min-width: 321px ) and (max-width: 460px){
+      .container {
+
+        width: 80%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        position: relative;
+        top: 100px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+        gap: 50px;
+
+        margin: auto;
+      }
+    }
+    @media all and (min-width: 461px ) and (max-width: 768px){
+      .container {
+
+        width: 80%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        position: relative;
+        top: 100px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+        gap: 50px;
+
+        margin: auto;
+      }
+    }
+    @media all and (min-width: 769px ) and (max-width: 834px){
+      .container {
+
+      width: 80%;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      position: relative;
+      top: 100px;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(3,1fr);
+      gap: 50px;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }}
+    @media all and (min-width: 835px ) and (max-width: 1024px){
+      .container {
+
+        width: 80%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        position: relative;
+        top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+    @media all and (min-width: 1025px ) and (max-width: 1440px){
+      .container {
+
+        width: 80%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        position: relative;
+        top: 100px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+    @media all and  (min-width: 1440px){
+      .container {
+
+        width: 80%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        top: 100px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        left: 0;
+        right: 0;
+        gap: 50px;
+        margin: auto;
+      }
+    }
+
+    body{
+      background-color: white;
+    }
+    h1{
+      left: 0;
+      right: 0;
+      top: 50px;
+      width: fit-content;
+      color: black;
+      position: relative;
+      margin: auto;
+    }
+
+    .card {
+      position: relative;
+      width: 300px;
+      height: 250px;
+      text-align: center;
+      line-height: 250px;
+
+      border-radius: 0.8rem;
+      font-size: 2rem;
+      transform-style: preserve-3d;
+      transition: transform 0.5s ease-in-out;
+      cursor: pointer;
+      color: white;
+
+
+    }
+    .face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 0.8rem;
+      transition: transform 0.5s ease-in-out;
+      backface-visibility: hidden;
+      background: #0DB3AE;
+
+      background: linear-gradient(
+              151deg,
+              rgba(255, 255, 255, 0.9) 1%,
+              #0DB3AE 30%,
+              #06A798 50%,
+              #088194 66%,
+              #06A798 80%,
+              rgba(255, 255, 255, 1) 100%
+      );
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .face-back {
+      transform: rotateY(180deg);
+      background: linear-gradient(
+              151deg,
+              #0DB3AE 0%,
+              #088194 50%,
+              #088395 100%
+      );
+
+      );
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+    }
+    button{
+      background: none;
+      width: 110px;
+      height: 60px;
+      font-size: 20px;
+      border: solid white;
+      border-width: thin;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+    }
+
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+
+    .card:hover .face-front {
+      transform: rotateY(-180deg);
+    }
+    .card:hover .face-back {
+      transform: rotateY(0deg);
+    }
+
+  </style>
+</head>
+<body>
+<h1>Assignment 03</h1>
+<div class="container">
+  <div class="card">
+    <div class="face face-front">Case 01</div>
+    <div class="face face-back">
+      <button>
+      <a href="assignment3/case1.html">View</a>
+    </button>
+      <button>
+        <a href="https://github.com/sawaniThiwandika/assignment-3-html/commit/b85c1e2d8d1fe83eceee6c7e7dd22ee74aff0bb3">GitHub</a>
+      </button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="face face-front">Case 02</div>
+    <div class="face face-back">
+      <button>
+        <a href="assignment3/case2.html">View</a>
+      </button>
+      <button>
+        <a href="https://github.com/sawaniThiwandika/assignment-3-html/blob/master/case2.html">GitHub</a>
+      </button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="face face-front">Case 03</div>
+    <div class="face face-back">
+      <button>
+        <a href="assignment3/case3.html">View</a>
+      </button>
+      <button>
+        <a href="https://github.com/sawaniThiwandika/assignment-3-html/blob/master/case3.html">GitHub</a>
+      </button>
+    </div>
+  </div>
+  <div class="card">
+    <div class="face face-front">Case 04</div>
+    <div class="face face-back">
+      <button>
+        <a href="assignment3/case4.html">View</a>
+      </button>
+      <button>
+        <a href="https://github.com/sawaniThiwandika/assignment-3-html/blob/master/case4.html">GitHub</a>
+      </button>
+    </div>
+  </div>
+  <div class="card">
+  <div class="face face-front">Case 05</div>
+  <div class="face face-back">
+    <button>
+      <a href="assignment3/case5.html">View</a>
+    </button>
+    <button>
+      <a href="https://github.com/sawaniThiwandika/assignment-3-html/blob/master/case5.html">GitHub</a>
+    </button>
+  </div>
+</div>
+  <div class="card">
+    <div class="face face-front">Case 06</div>
+    <div class="face face-back">
+      <button>
+        <a href="assignment3/case6.html">View</a>
+      </button>
+      <button>
+        <a href="https://github.com/sawaniThiwandika/assignment-3-html/blob/master/case6.html">GitHub</a>
+      </button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

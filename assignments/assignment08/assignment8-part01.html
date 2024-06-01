@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    body{
+      background-color:  #E9E8E8;
+    }
+    h1{
+      color: deeppink;
+    width: fit-content;
+      top: 100px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+
+    }
+    #walkingDiv{
+
+      position: absolute;
+      top: 250px;
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      width: 75%;
+      height: 235px;
+      border-bottom:solid deeppink;
+    }
+    .smallDiv{
+      position: relative;
+      width: 188px;
+      height: 235px;
+      /*border: solid deepskyblue;*/
+    }
+    .smallDiv>h3{
+      position: absolute;
+      font-size: 40px;
+      top: 70px;
+      width: fit-content;
+      right: 0;
+      margin: auto;
+      color: deepskyblue;
+    }
+    #houseDiv{
+      position: absolute;
+      top: 250px;
+      width: 25%;
+      height: 235px;
+      right: 0;
+      margin: auto;
+    }
+    #houseVideo{
+      position: absolute;
+      width: 90%;
+      height: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+      margin:auto;
+      padding: 0;
+
+    }
+    #startBtn{
+      position: absolute;
+      top: 550px;
+      margin: auto;
+      left: 40%;
+      width: 100px;
+      height: 50px;
+      color: blue;
+    }
+    #stopBtn{
+      position: absolute;
+      top: 550px;
+      margin: auto;
+      left: 50%;
+      width: 100px;
+      height: 50px;
+      color: red;
+    }
+    .smallDiv>img{
+      left: 0;
+      position: absolute;
+      width: 150px;
+      height: 200px;
+       bottom: 0;
+      margin: auto;
+
+    }
+
+
+  </style>
+</head>
+<body>
+<h1>JS QUE</h1>
+<section>
+  <div id="walkingDiv">
+    <div class="smallDiv">
+     <!-- <video src="assets/images/walking.mp4>"></video>-->
+
+      <img src="../../assets/images/walkingMan.gif">
+      <h3></h3></div>
+    <div class="smallDiv">
+      <img src="../../assets/images/walkingMan.gif">
+      <h3></h3></div>
+    <div class="smallDiv">
+      <img src="../../assets/images/walkingMan.gif">
+      <h3></h3></div>
+    <div class="smallDiv">
+      <img src="../../assets/images/walkingMan.gif">
+      <h3></h3></div>
+    <div class="smallDiv">
+      <img src="../../assets/images/walkingMan.gif">
+      <h3></h3></div>
+    <div class="smallDiv">
+      <img src="../../assets/images/walkingMan.gif">
+      <h3></h3></div>
+
+
+  </div>
+  <div id="houseDiv">
+    <video src="../../assets/images/house.mp4" id="houseVideo"></video>
+  </div>
+</section>
+<button id="startBtn">Start</button>
+<button id="stopBtn">Stop</button>
+<script src="../../assets/lib/jquery-3.7.1.min.js"></script>
+<script>
+  let letters=['A','B','C','D','E','F'];
+  let SavedLetters=['A','B','C','D','E','F'];
+  let myInterval=null;
+  function moveLetters(){
+    $("#houseVideo")[0].play();
+    letters.map((item, index)=>{
+
+      $(".smallDiv > h3").eq(index).text(item);
+    });
+  }
+
+  function timertoBlocks(){
+    moveLetters();
+    let char=letters[letters.length-1];
+
+    letters.pop();
+
+    letters.unshift(char);
+
+    console.log(char);
+
+  }
+  $("div").on("click", function(event) {
+    event.stopPropagation();
+   /* clearInterval(myInterval);*/
+    var index = $("div").index(this);
+    letters[index]=SavedLetters[0];
+    console.log("First  "+SavedLetters[0]);
+    var i=index-1;
+    console.log("Clicked div index:", index);
+    let j=1;
+    for(i;i>=0;i--){
+
+      letters[i]=SavedLetters[SavedLetters.length-j];
+      j++;
+
+    }
+    j=1;
+    i=index+1;
+    for(i;i<SavedLetters.length;i++){
+
+      letters[i]=SavedLetters[j];
+
+      j++;
+    }
+    timertoBlocks();
+    /*myInterval=setInterval(timertoBlocks,2000);*/
+  });
+
+
+$("#startBtn").on("click",()=>{
+  myInterval=setInterval(timertoBlocks,2000);
+  $("#houseVideo")[0].play();
+});
+  $("#stopBtn").on("click",(event)=>{
+    clearInterval(myInterval);
+
+  });
+
+</script>
+</body>
+</html>

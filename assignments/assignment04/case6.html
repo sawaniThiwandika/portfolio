@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../normalize.css">
+    <style>
+        main {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-image: url("../assignmentPics/sky.jpg");
+            overflow: hidden;
+            background-size: cover;
+            content-visibility: visible;
+        }
+
+        #town {
+            bottom: 200px;
+            display: flex;
+            animation-name: my-animation;
+            animation-duration: 5s;
+            width: 200vw;
+            height: 301px;
+            position: absolute;
+            animation-direction: revert;
+            animation-iteration-count: infinite;
+
+
+        }
+
+        #road2 {
+            left: 100vw;
+
+        }
+
+        #town2 {
+            left: 100vw;
+
+        }
+
+        .town {
+            background-size: cover;
+            background-position: center;
+            background-image: url("../assignmentPics/city.png");
+            width: 100vw;
+            height: 301px;
+            position: absolute;
+            margin: auto;
+        }
+
+        #road {
+            bottom: 0;
+            display: flex;
+            animation-name: my-animation;
+            animation-duration: 2s;
+            width: 200vw;
+            height: 200px;
+            position: absolute;
+            animation-iteration-count: infinite;
+        }
+
+        .road {
+            background-size: cover;
+            background-position: center;
+            background-image: url("../assignmentPics/road.jpg");
+            width: 100vw;
+            height: 200px;
+            position: absolute;
+            margin: auto;
+
+        }
+
+        #car {
+            width: 30%;
+            position: absolute;
+            bottom: 100px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #wheel1 {
+            width: 7%;
+            position: absolute;
+            bottom: 100px;
+            left: 37%;
+            margin: auto;
+            animation-name: animiWheel;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        #wheel2 {
+            width: 7%;
+            position: absolute;
+            bottom: 100px;
+            left: 55%;
+            margin: auto;
+            animation-name: animiWheel;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes my-animation {
+            from {
+                transform: translateX(0%);
+            }
+            to {
+                transform: translateX(-50%);
+            }
+
+        }
+
+        @keyframes animiWheel {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+<main>
+    <section id="town">
+        <div class="town" id="town1"></div>
+        <div class="town" id="town2"></div>
+
+    </section>
+    <section id="road">
+        <div class="road" id="road1"></div>
+        <div class="road" id="road2"></div>
+    </section>
+    <img src="../assignmentPics/car.png" id="car" alt="car">
+    <img src="../assignmentPics/wheel.png" id="wheel1">
+    <img src="../assignmentPics/wheel.png" id="wheel2">
+</main>
+</body>
+</html>

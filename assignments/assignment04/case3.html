@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../normalize.css">
+    <style>
+        body{
+            overflow: hidden;
+        }
+        :root{
+            --width: 200px;
+            --height:75px;
+        }
+        div{
+            width: var(--width);
+            height: var(--height);
+            border-radius: 10px;
+            background-color: orange;
+            animation-duration: 5s;
+            animation-name: my-animation;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear
+        }
+        @keyframes my-animation {
+            0%{
+                margin-left: 0;
+                margin-bottom: 0;
+                transform:rotate(0deg) ;
+
+
+            }
+            25%{
+                margin-left: calc(100vw - var(--width) );
+                margin-top: 0;
+                background-color: blue;
+
+            }
+            50%{
+                transform:rotate(180deg);
+                margin-left: calc(100vw - var(--width) );
+                margin-top: calc(100vh - var(--height));
+                background-color: yellow;
+            }
+            75%{
+                margin-left:0 ;
+                transform:rotate(0deg) ;
+                margin-top: calc(100vh - var(--height));
+                background-color: skyblue;
+            }
+            100%{
+                margin-left:0 ;
+                margin-top: 0;
+                transform:rotate(-180deg);
+                background-color: blue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
