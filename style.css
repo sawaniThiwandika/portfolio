@@ -18,10 +18,11 @@ body{overflow-x: hidden}
         margin: auto;
         height: 50px;
         position: fixed;
-        background: linear-gradient(to bottom, #35A29F 0%, #35A29F 30%, #088194 80%, #088194 100%);
+     /*   background: linear-gradient(to bottom, #35A29F 0%, #35A29F 30%, #088194 80%, #088194 100%);*/
+        background-color: black;
         width: 100vw ;
-
-        border-bottom: none ;
+        border-bottom: solid #088194;
+        /*border-bottom: none ;*/
         z-index: 9999;
     }
 
@@ -408,10 +409,12 @@ body{overflow-x: hidden}
         margin: auto;
         height: 50px;
         position: fixed;
-        background: linear-gradient(to bottom, #35A29F 0%, #35A29F 30%, #088194 80%, #088194 100%);
+      /*  background: linear-gradient(to bottom, #35A29F 0%, #35A29F 30%, #088194 80%, #088194 100%);*/
+        background-color: black;
+        border-bottom: solid #088194;
         width: 100vw ;
 
-        border-bottom: none ;
+
         z-index: 9999;
     }
 
@@ -443,14 +446,14 @@ body{overflow-x: hidden}
         position: absolute;
         top: 0;
         bottom: 0;
-        right: 10px;
+        right: 20px;
         width: fit-content;
         border: none;
         background: none;
     }
     #hamBtn>img{
 
-        width: 30px;
+        width: 23px;
     }
     #sectionLinksHamButton{
         display: none;
@@ -491,13 +494,13 @@ body{overflow-x: hidden}
     }
 
     header > img {
-        width: 80px;
+        width: 60px;
         position: absolute;
         top: 0;
         bottom: 0;
         margin: auto;
 
-        left: 10px;
+        left: 5px;
 
     }
 
@@ -786,10 +789,11 @@ top: 0;
         margin: auto;
         height: 50px;
         position: fixed;
-        background: linear-gradient(to bottom, #35A29F 0%, #35A29F 30%, #088194 80%, #088194 100%);
+       /* background: linear-gradient(to bottom, #35A29F 0%, #35A29F 30%, #088194 80%, #088194 100%);*/
+        background-color: black;
         width: 100vw ;
-
-        border-bottom: none ;
+        border-bottom: solid #088194;
+      /*  border-bottom: none ;*/
         z-index: 9999;
     }
 
@@ -821,7 +825,7 @@ top: 0;
         position: absolute;
         top: 0;
         bottom: 0;
-        right: 20px;
+        right: 30px;
         width: fit-content;
         background: none;
         border: none;
@@ -829,7 +833,7 @@ top: 0;
     #hamBtn>img{
 
 
-        width: 30px;
+        width: 25px;
     }
     #sectionLinksHamButton{
         display: none;
@@ -877,7 +881,7 @@ top: 0;
         bottom: 0;
         margin: auto;
 
-        left: 10px;
+        left: 5px;
 
     }
 
