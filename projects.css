@@ -54,7 +54,7 @@
 
         width: 200px;
         height: 350px;
-        background-color: #088194;
+        background-color: white;
         border-radius: 20px;
         top: 0;
         bottom: 0;
@@ -71,7 +71,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 20px;
+        font-size: 26px;
         color: white;
     }
 
@@ -89,20 +89,20 @@
     }
 
     #projectSection > div > div > button {
-        width: 100px;
-        height: 40px;
+        width: 150px;
+        height: 50px;
         margin: auto;
-        font-size: 20px;
+        font-size: 25px;
         border-radius: 5px;
-        border:   rgba(255, 255, 255, 0.5) ;
-        background-color: rgba(255, 255, 255, 0.5);
+        border:   rgba(255, 255, 255, 0.8) ;
+        background-color: rgba(255, 255, 255, 0.8);
         color: white;
 
 
     }
     #projectSection > div > div > button>a {
        text-decoration: none;
-        color: white;
+        color: #088194 ;
 
 
     }
@@ -115,7 +115,7 @@
         left: 0;
         right: 0;
         color:  rgba(255, 255, 255, 0.7);
-        font-size: 14px;
+        font-size: 18px;
 
     }
 }
@@ -175,7 +175,7 @@
 
         width: 200px;
         height: 350px;
-        background-color: #088194;
+        background-color: white;
         border-radius: 20px;
         top: 0;
         bottom: 0;
@@ -192,7 +192,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 20px;
+        font-size: 25px;
         color: white;
     }
 
@@ -210,20 +210,20 @@
     }
 
     #projectSection > div > div > button {
-        width: 100px;
-        height: 40px;
+        width: 150px;
+        height: 60px;
         margin: auto;
-        font-size: 20px;
+        font-size: 22px;
         border-radius: 5px;
-        border:   rgba(255, 255, 255, 0.5) ;
-        background-color: rgba(255, 255, 255, 0.5);
+        border:   rgba(255, 255, 255, 0.8) ;
+        background-color: rgba(255, 255, 255, 0.8);
         color: white;
 
 
     }
     #projectSection > div > div > button>a {
         text-decoration: none;
-        color: white;
+        color:  #088194;
 
 
     }
@@ -236,7 +236,7 @@
         left: 0;
         right: 0;
         color:  rgba(255, 255, 255, 0.7);
-        font-size: 14px;
+        font-size: 15px;
 
     }
 
@@ -298,7 +298,6 @@
 
         width: 200px;
         height: 350px;
-        background-color: #088194;
         border-radius: 20px;
         top: 0;
         bottom: 0;
@@ -315,7 +314,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 20px;
+        font-size: 26px;
         color: white;
     }
 
@@ -333,20 +332,20 @@
     }
 
     #projectSection > div > div > button {
-        width: 100px;
-        height: 40px;
+        width: 160px;
+        height: 60px;
         margin: auto;
         font-size: 20px;
         border-radius: 5px;
-        border:   rgba(255, 255, 255, 0.5) ;
-        background-color: rgba(255, 255, 255, 0.5);
+        border:   rgba(255, 255, 255, 0.8) ;
+        background-color: rgba(255, 255, 255, 0.8);
         color: white;
 
 
     }
     #projectSection > div > div > button>a {
         text-decoration: none;
-        color: white;
+        color:  #088194;
 
 
     }
@@ -420,7 +419,7 @@
 
         width: 250px;
         height: 400px;
-        background-color: #088194;
+        background-color: white;
         border-radius: 20px;
         top: 0;
         bottom: 0;
@@ -437,7 +436,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 20px;
+        font-size: 30px;
         color: white;
     }
 
@@ -455,20 +454,20 @@
     }
 
     #projectSection > div > div > button {
-        width: 100px;
-        height: 40px;
+        width: 150px;
+        height: 60px;
         margin: auto;
-        font-size: 20px;
+        font-size: 25px;
         border-radius: 5px;
-        border:   rgba(255, 255, 255, 0.5) ;
-        background-color: rgba(255, 255, 255, 0.5);
+        border:   rgba(255, 255, 255, 0.8) ;
+        background-color: rgba(255, 255, 255, 0.8);
         color: white;
 
 
     }
     #projectSection > div > div > button>a {
         text-decoration: none;
-        color: white;
+        color: #088194;
 
 
     }
@@ -509,7 +508,7 @@
     }
 
     #projectsHeader {
-        font-size: 25px;
+        font-size: 30px;
         position: absolute;
         color: black;
         width: fit-content;
@@ -540,7 +539,7 @@
 
         width: 250px;
         height: 400px;
-        background-color: #088194;
+        background-color: white;
         border-radius: 20px;
         top: 0;
         bottom: 0;
@@ -557,7 +556,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 20px;
+        font-size: 30px;
         color: white;
     }
 
@@ -575,20 +574,20 @@
     }
 
     #projectSection > div > div > button {
-        width: 100px;
-        height: 40px;
+        width: 150px;
+        height: 60px;
         margin: auto;
-        font-size: 20px;
+        font-size: 25px;
         border-radius: 5px;
-        border:   rgba(255, 255, 255, 0.5) ;
-        background-color: rgba(255, 255, 255, 0.5);
+        border:   rgba(255, 255, 255, 0.8) ;
+        background-color: rgba(255, 255, 255, 0.8);
         color: white;
 
 
     }
     #projectSection > div > div > button>a {
         text-decoration: none;
-        color: white;
+        color:  #088194;
 
 
     }
@@ -660,7 +659,7 @@
 
         width: 250px;
         height: 400px;
-        background-color: #088194;
+        background-color: white;
         border-radius: 20px;
         top: 0;
         bottom: 0;
@@ -677,7 +676,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 20px;
+        font-size: 30px;
         color: white;
     }
 
@@ -695,20 +694,23 @@
     }
 
     #projectSection > div > div > button {
-        width: 100px;
-        height: 40px;
-        margin: auto;
-        font-size: 20px;
+        width: 150px;
+        height: 60px;
+
+        font-size: 25px;
         border-radius: 5px;
-      border:   rgba(255, 255, 255, 0.5) ;
-        background-color: rgba(255, 255, 255, 0.5);
+      border:   rgba(255, 255, 255, 0.8) ;
+        background-color: rgba(255, 255, 255, 0.8);
         color: white;
+        margin: auto;
 
 
     }
     #projectSection > div > div > button>a {
         text-decoration: none;
         color: white;
+        color: #088194;
+
 
 
     }
@@ -716,12 +718,13 @@
     #projectSection > div > div > p {
         width: fit-content;
         height: fit-content;
-        margin: 20px;
 
         left: 0;
         right: 0;
         color:  rgba(255, 255, 255, 0.7);
-        font-size: 18px;
+        font-size: 20px;
+        margin: 20px;
+        margin-top: 60px;
 
     }
 }
@@ -779,7 +782,7 @@
 
         width: 250px;
         height: 400px;
-        background-color: #088194;
+     /*   background-color: #088194;*/
         border-radius: 20px;
         top: 0;
         bottom: 0;
@@ -796,7 +799,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 20px;
+        font-size: 30px;
         color: white;
     }
 
@@ -814,20 +817,21 @@
     }
 
     #projectSection > div > div > button {
-        width: 100px;
-        height: 40px;
+        width: 150px;
+        height: 60px;
         margin: auto;
-        font-size: 20px;
+        font-size: 25px;
         border-radius: 5px;
-        border:   rgba(255, 255, 255, 0.5) ;
-        background-color: rgba(255, 255, 255, 0.5);
-        color: white;
+        border:   rgba(255, 255, 255, 0.8) ;
+  background-color: rgba(255, 255, 255, 0.8);
+
+        color: black;
 
 
     }
     #projectSection > div > div > button>a {
         text-decoration: none;
-        color: white;
+        color:  #088194;
 
 
     }
@@ -836,12 +840,27 @@
         width: fit-content;
         height: fit-content;
         margin: 20px;
-
         left: 0;
         right: 0;
         color:  rgba(255, 255, 255, 0.7);
         font-size: 18px;
 
     }
+
+}
+.projectDiv>p{
+    display: none;
+}
+
+.projectDiv{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+
+
 
 }

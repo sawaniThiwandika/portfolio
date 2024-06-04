@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-   @keyframes rotateAndHide {
+/*   @keyframes rotateAndHide {
         0% {
             transform: rotateY(0deg);
         }
@@ -58,23 +58,8 @@
         font-size: 40px;
     }
 
-    @keyframes hideImage {
-        0% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
 
-    @keyframes hideText {
-        0% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
+    }*/
 
 
    .contactHyperLinks:hover {
@@ -277,30 +262,36 @@
     <h3 id="projectsHeader">PROJECTS</h3>
     <div class="image-table">
         <div class="projectDiv" >
+
             <h4> DressAura</h4>
-            <img src="assets/images-portfolio/projects/dressAura.png" >
-            <button><a href="https://github.com/sawaniThiwandika/dressaura.git ">View</a></button>
+            <img src="assets/images-portfolio/projects/dressAura-crop-new.png" >
+
             <p>DressAura is a software that made for managing
                 dress rental and tailoring shop. I have used OOP concepts, JDBC and JavaFX to develop this software</p>
+            <button><a href="https://github.com/sawaniThiwandika/dressaura.git ">View</a></button>
         </div>
         <div class="projectDiv" >
             <h4> ChatRoom</h4>
-            <img src="assets/images-portfolio/projects/chatRoom.png" >
-            <button><a href="https://github.com/sawaniThiwandika/chat-room.git">View</a> </button>
+            <img src="assets/images-portfolio/projects/chatRoom-crop-new.png" >
+
             <p>I have used OOP concepts,Java sockets,threads, JDBC and JavaFX to develop this chat application</p>
+            <button><a href="https://github.com/sawaniThiwandika/chat-room.git">View</a> </button>
         </div>
         <div class="projectDiv" >
             <h4> Connect-4-Game</h4>
-            <img src="assets/images-portfolio/projects/coonect-4-game.png" >
-            <button><a href="https://github.com/sawaniThiwandika/connect-4-game.git">View</a> </button>
+            <img src="assets/images-portfolio/projects/c4-crop-new.png" >
+
             <p>I have used OOP concepts and JavaFX to develop this game</p>
+            <button><a href="https://github.com/sawaniThiwandika/connect-4-game.git">View</a> </button>
         </div>
         <div class="projectDiv" >
             <h4> BookWorm</h4>
-            <img src="assets/images-portfolio/projects/bookworm.png" >
-            <button><a href="https://github.com/sawaniThiwandika/library-management-system.git">View</a> </button>
+            <img src="assets/images-portfolio/projects/bookWarm-crop-new.png" >
             <p>DressAura is a software that made for managing
-               Library. I have used OOP concepts,Hibernate and JavaFX to develop this software</p>
+                Library. I have used OOP concepts,Hibernate and JavaFX to develop this software</p>
+            <button><a href="https://github.com/sawaniThiwandika/library-management-system.git">View</a> </button>
+
+
         </div>
     </div>
 
@@ -559,6 +550,7 @@
     </div>
     <p id="copyRight" >&copy; 2024 sawaniThiwandika. All rights reserved.</p>
 </footer>
+<script src="assets/lib/jquery-3.7.1.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
@@ -632,7 +624,50 @@
     setupModal("myModal03", "viewAssignmentBtn03");
     setupModal("myModal04", "viewAssignmentBtn04");
 </script>
+<script>
+    $(document).ready(function() {
+        var divHeight;
+        var marginTopValue;
+        $('.projectDiv').each(function() {
+            divHeight= $(this).height();
+            marginTopValue = divHeight*0.5 + 'px';
+            var imgSrc = $(this).find('img').attr('src');
+            $(this).find('img').css('opacity', '0');
+            $(this).css('background-image', 'url(' + imgSrc + ')');
 
+        });
+        $('.projectDiv').hover(
+            function() {
+                // On mouse enter
+              $(this).css('background-color', ' #088194');
+                $(this).css('background-image', 'none');
+                $(this).find('p').css('display', 'block');
+                $(this).find('img').css('display', 'none');
+                $(this).find('button').css('display', 'block');
+                $(this).find('button').css('margin', 'auto');
+                $(this).find('button').css('margin-bottom', '20px');
+
+
+            },
+            function() {
+                $(this).css('ba', ' 0.7');
+                $(this).css('background-color', 'white');
+                var imgSrc = $(this).find('img').attr('src');
+                $(this).find('img').css('opacity', '0');
+                $(this).css('background-image', 'url(' + imgSrc + ')');
+                // On mouse leave
+               // Reset background color
+                 // Reset background color
+                $(this).find('p').css('display', 'none');
+                $(this).find('button').css('display', 'block');
+                $(this).find('button').css('color', 'black');
+                $(this).find('button').css('margin-top', marginTopValue);
+
+
+            }
+        );
+    });
+</script>
 </body>
 
 
