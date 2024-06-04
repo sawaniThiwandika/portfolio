@@ -850,6 +850,7 @@
 }
 .projectDiv>p{
     display: none;
+
 }
 
 .projectDiv{
@@ -857,10 +858,31 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: background-image 0.3s ease;
-
+    transition: background-image 4s ease-in, box-shadow 2s ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 
 
 
+}
+.projectDiv::before {
+
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent overlay to reduce visibility */
+    transition: opacity 0.3s ease; /* Transition for opacity */
+    z-index: 1; /* Places overlay above the background image */
+}
+.projectDiv p,
+.projectDiv button,
+.projectDiv h4 {
+
+     /* Places content above the overlay */
+    transition: transform 2s ease, opacity 2s ease; /* Transition for transform and opacity */
+ transform: translateY(100%); /* Initially translate content down */
+   /* Initially hidden */
+}
+
+.projectDiv:hover p,
+.projectDiv:hover button,
+.projectDiv:hover h4 {
+    transform: translateY(0); /* Move content up to original position */
+    opacity: 1; /* Show content */
 }

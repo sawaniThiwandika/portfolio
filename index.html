@@ -646,7 +646,7 @@
                 $(this).find('button').css('display', 'block');
                 $(this).find('button').css('margin', 'auto');
                 $(this).find('button').css('margin-bottom', '20px');
-
+                $(this).find('::before').css('opacity', '0');
 
             },
             function() {
@@ -662,6 +662,7 @@
                 $(this).find('button').css('display', 'block');
                 $(this).find('button').css('color', 'black');
                 $(this).find('button').css('margin-top', marginTopValue);
+                $(this).find('::before').css('opacity', '1'); // Show overlay on hover out
 
 
             }
