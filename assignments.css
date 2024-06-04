@@ -1429,3 +1429,7 @@
     text-decoration: none;
     cursor: pointer;
 }
+.assignmentDiv{
+    border-width: thin;
+    box-shadow: 0 4px 8px 0 rgba(53, 162, 169, 0.9);
+}
