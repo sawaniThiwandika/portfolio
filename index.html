@@ -211,7 +211,7 @@
 </section>
 <section id="skillsSection">
     <h1 id="iamBestInHeader"> I AM BEST IN</h1>
-    <h3 id="skillsHeader"> SKILLS</h3>
+    <h3 id="skillsHeader" style="color: black"> SKILLS</h3>
     <div id="softwareSkills">
   <!--      <img src="images/skills/java-removebg-preview.png" HEIGHT="102.5" WIDTH="123">
         <img src="images/skills/pngimg.com_-_mysql_PNG22-removebg-preview.png" HEIGHT="150" WIDTH="150">
@@ -552,6 +552,12 @@
 </footer>
 <script src="assets/lib/jquery-3.7.1.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init('b4RU0kERQGNgbQ-o9'); // Replace 'YOUR_USER_ID' with your actual EmailJS user ID
+    })();
+</script>
 <script>
     AOS.init();
 </script>
@@ -679,7 +685,29 @@
         link.click();
     });
 </script>
+<script type="text/javascript">
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
 
+        // Collect form data
+        var templateParams = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('Email').value,
+            contact_number: document.getElementById('num').value,
+            message: document.getElementById('subject').value
+        };
+
+        // Send email
+        emailjs.send('service_ddae5i6', 'template_bxfeb73', templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Your message has been sent successfully!');
+            }, function(error) {
+                console.log('FAILED...', error);
+                alert('Failed to send your message. Please try again later.');
+            });
+    });
+</script>
 </body>
 
 

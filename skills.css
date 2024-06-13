@@ -175,13 +175,23 @@
     }
     #softSkills{
         width: 90%;
-        height: 500px;
+        height: 450px;
 
         left: 5%;
         position: absolute;
         border: solid #088194;
         top: 800px;
         border-radius: 15px;
+    }
+    #softSkills>ol{
+
+        left: 10%;
+
+        width: 100%;
+        margin:auto;
+        bottom: 0;
+        top: 0;
+        position: absolute;
     }
     #softSkills>ol>li{
         font-size: 30px;
@@ -195,7 +205,7 @@
         width: fit-content;
     }
     #softwareSkills>img{
-        width: 150px;
+        width: 130px;
         margin: 10px;
     }
 }
@@ -243,15 +253,24 @@
     #softSkills{
         width: 90%;
         height: 400px;
-
         left: 5%;
         position: absolute;
         border: solid #088194;
         top: 700px;
         border-radius: 15px;
+        align-content: center;
+    }
+    #softSkills>ol{
+
+        left: 20%;
+        width: 100%;
+        margin:auto;
+        bottom: 0;
+        top: 0;
+        position: absolute;
     }
     #softSkills>ol>li{
-        font-size: 26px;
+        font-size: 30px;
         /* margin: 20px;*/
         left: 0;
         right: 0;
@@ -259,7 +278,7 @@
         margin-left: 10%;
         margin-top: 20px;
         margin-bottom: 20px;
-        width: fit-content;
+
     }
     #softwareSkills>img{
         width: 150px;
@@ -306,6 +325,15 @@
         top: 200px;
         border-radius: 15px;
     }
+    #softSkills>ol{
+        left: 0;
+        right: 0;
+        margin:auto;
+        bottom: 0;
+        top: 0;
+        position: absolute;
+    }
+
     #softSkills{
         width: 40%;
         height: 400px;
@@ -314,6 +342,7 @@
         border: solid #088194;
         top: 200px;
         border-radius: 15px;
+        align-content: center;
     }
     #softSkills>ol>li{
         font-size: 26px;
@@ -326,8 +355,8 @@
         margin-bottom: 20px;
     }
     #softwareSkills>img{
-        width: 120px;
-        margin: 10px;
+        width: 100px;
+        margin: 8px;
     }
 }
 @media all and (min-width: 1025px ) and (max-width: 1440px){
@@ -391,7 +420,7 @@
     }
     #softwareSkills>img{
         width: 120px;
-        margin: 10px;
+        margin: 7px;
     }
 }
 @media all and  (min-width:1440px){
@@ -455,7 +484,7 @@
         margin-bottom: 20px;
     }
     #softwareSkills>img{
-        width: 150px;
+        width: 140px;
         margin: 10px;
     }
 }
