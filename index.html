@@ -173,7 +173,7 @@
             With a strong foundation and a thirst for challenges,
             I am poised to make a mark in the field, transforming
             ideas into seamless digital solutions.</p>
-        <button id="downloadCV"> <img src="assets/images-portfolio/icons/downloading-removebg-preview.png "> Download CV</button> <br>
+        <button id="downloadCV" style="text-align: center;"> <!--<img src="assets/images-portfolio/icons/downloading-removebg-preview.png ">--> Download CV</button> <br>
     </div>
 </section> <!--height="50" width="50"-->
 
@@ -239,7 +239,7 @@
     <h3 id="servicesHeader">SERVICES</h3>
     <div id="webDevelopmentDiv">
         <h4 style="color:#088194 ; font-size: 24px">Custom Web Development</h4>
-        <img src="assets/images-portfolio/icons/services.jpg" >
+        <img src="assets/images-portfolio/icons/icons8-web-design-64.png" >
         <!--height="200" width="320"-->
         <ul>
             <li>Tailored back-end solutions based on client
@@ -669,6 +669,17 @@
         );
     });
 </script>
+
+
+<script>
+    document.getElementById('downloadCV').addEventListener('click', function() {
+        const link = document.createElement('a');
+        link.href = 'assets/CV/sawani-cv-1.pdf';
+        link.download = 'sawani-cv-1.pdf';
+        link.click();
+    });
+</script>
+
 </body>
 
 
